@@ -253,7 +253,7 @@ async function renderRecipePage(app, slug) {
       <h1>${recipe.title || slug}</h1>
       <div class="recipe-detail-meta">
         ${recipe.time ? `<span>&#9201; ${recipe.time}</span>` : ''}
-        ${recipe.servings ? `<span>&#128101; ${recipe.servings} personer</span>` : ''}
+        ${recipe.servings ? `<span>&#128101; ${/^\d+$/.test(String(recipe.servings).trim()) ? recipe.servings + ' personer' : recipe.servings}</span>` : ''}
         ${(recipe.tags || []).map(t => `<span>${t}</span>`).join('')}
       </div>
       <div class="recipe-layout">
