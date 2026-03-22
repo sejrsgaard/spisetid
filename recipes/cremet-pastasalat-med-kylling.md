@@ -6,10 +6,7 @@ ingredients:
   - **Grøntsager:**
   - **Dressing:**
 ---
-## Tid
-- - - 
-
-## Sådan gør du
+## Fremgangsmåde
 1. Start med at stege bacon sprødt og læg det til side.
 2. Kog pasta og kom det efterfølgende i en stor skål.
 3. Kom æg i en skål og rasp, salt og peber i en anden.

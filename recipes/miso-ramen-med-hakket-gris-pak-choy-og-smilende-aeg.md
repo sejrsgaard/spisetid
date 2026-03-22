@@ -18,11 +18,7 @@ ingredients:
   - Sukker
   - Olie
 ---
-**Forberedelsestid**: 
-**Tilberedelsestid**: 30 minutter
-**Samlet tid**: 30 minutter
-
-# Fremgangsmåde
+## Fremgangsmåde
 
 Sæt æggene over at koge i ca. 5-6 minutter, alt efter hvor store de er. Køl dem ned i koldt vand, pil og halvér dem forsigtigt.
 

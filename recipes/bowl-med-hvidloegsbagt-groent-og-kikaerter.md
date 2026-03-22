@@ -29,7 +29,7 @@ ingredients:
   - (Hvidløgsyoghurt) 0,50 håndfuld persille, finthakket
   - (Til servering) 0,50 håndfuld persille, finthakket
 ---
-#### Fremgangsmåde
+## Fremgangsmåde
 
 1. **Sprøde kikærter:**  
    Skyl kikærterne og tør dem i et rent klæde. Vend kikærterne godt i olie og derefter krydderier. Fordel på en bageplade med bagepapir og bag i en forvarmet ovn ved 175 grader varmluft i 20-25 min til de er lækre og sprøde – vend dem evt. en gang eller to undervejs.

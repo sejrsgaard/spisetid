@@ -22,24 +22,26 @@ ingredients:
   - (Topping) 50 g feta (valgfrit)
 ---
 
-## Bag de søde kartofler
+## Fremgangsmåde
+
+**Søde kartofler**
 
 1. Forvarm ovnen til 200°C.
 2. Vask de søde kartofler og prik dem med en gaffel.
 3. Læg dem på en bageplade, pensl med lidt olivenolie og drys med salt.
 4. Bag i ovnen i ca. 40-50 minutter, indtil de er møre.
 
-## Forbered kikærtefyldet
+**Kikærtefyldet**
 
 1. Bland kikærterne med olivenolie, paprika, spidskommen, chili, salt og peber.
 2. Fordel dem på en bageplade og rist i ovnen i 15-20 minutter, indtil de er sprøde.
 
-## Lav tahindressingen
+**Tahindressing**
 
 1. Pisk tahin, citronsaft, hvidløg og lidt vand sammen, indtil du får en cremet men flydende konsistens.
 2. Smag til med salt og peber.
 
-## Anretning
+**Anretning**
 
 1. Skær de bagte søde kartofler op på midten og pres dem lidt åbne.
 2. Fyld dem med de krydrede kikærter.
