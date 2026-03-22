@@ -12,16 +12,7 @@ Add a new recipe to the spisetid project.
 
 ## Workflow
 
-**Step 1 — Find source**
-
-Check if there is a matching Obsidian source file in:
-`/Users/ksj/Library/CloudStorage/GoogleDrive-ksj2209@gmail.com/My Drive/Garden/Garden/Opskrifter/`
-
-List the directory and look for a file whose name matches the requested recipe. If found, read it — it is in Obsidian markdown format with `dg-publish: true` frontmatter and may contain embedded links (`![[...]]`) that must be stripped.
-
-If no source file exists, write the recipe from scratch based on your knowledge. Inform the user either way.
-
-**Step 2 — Convert / compose the recipe**
+**Step 1 — Compose the recipe**
 
 Produce a recipe file following the formatting rules in `CLAUDE.md` exactly:
 
