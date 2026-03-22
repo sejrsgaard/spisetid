@@ -168,7 +168,7 @@ async function renderRecipesPage(app) {
         <h2>${r.title || r.slug}</h2>
         <div class="recipe-card-meta">
           ${r.time ? `<span>&#9201; ${r.time}</span>` : ''}
-          ${r.servings ? `<span>&#128101; ${r.servings} pers.</span>` : ''}
+          ${r.servings ? `<span>&#128101; ${/^\d+$/.test(String(r.servings).trim()) ? r.servings + ' pers.' : r.servings}</span>` : ''}
         </div>
         <div class="recipe-card-tags">
           ${(r.tags || []).map(t => `<span>${t}</span>`).join('')}
