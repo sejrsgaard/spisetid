@@ -207,6 +207,30 @@ async function renderRecipesPage(app) {
   });
 }
 
+function renderIngredientGroups(ingredients) {
+  const hasGroups = ingredients.some(i => /^\(.+?\) /.test(i));
+  if (!hasGroups) {
+    return `<ul>${ingredients.map(i => `<li>${i}</li>`).join('')}</ul>`;
+  }
+
+  const groups = [];
+  let current = null;
+  for (const ing of ingredients) {
+    const m = ing.match(/^\((.+?)\) (.+)$/);
+    const [groupName, item] = m ? [m[1], m[2]] : ['', ing];
+    if (!current || current.name !== groupName) {
+      current = { name: groupName, items: [] };
+      groups.push(current);
+    }
+    current.items.push(item);
+  }
+
+  return groups.map(g => `
+    ${g.name ? `<h3 class="ing-group-name">${g.name}</h3>` : ''}
+    <ul>${g.items.map(i => `<li>${i}</li>`).join('')}</ul>
+  `).join('');
+}
+
 // Single recipe page
 
 async function renderRecipePage(app, slug) {
@@ -235,9 +259,7 @@ async function renderRecipePage(app, slug) {
       <div class="recipe-layout">
         <div class="ingredients-box">
           <h2>Ingredienser</h2>
-          <ul>
-            ${(recipe.ingredients || []).map(i => `<li>${i}</li>`).join('')}
-          </ul>
+          ${renderIngredientGroups(recipe.ingredients || [])}
         </div>
         <div class="instructions">${instructionsHtml}</div>
       </div>

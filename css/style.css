@@ -258,6 +258,19 @@ main {
   color: var(--text);
 }
 
+.ing-group-name {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--accent);
+  margin: 1rem 0 0.35rem;
+}
+
+.ingredients-box .ing-group-name:first-of-type {
+  margin-top: 0;
+}
+
 .ingredients-box ul {
   list-style: none;
   display: flex;
