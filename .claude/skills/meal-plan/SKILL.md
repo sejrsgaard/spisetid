@@ -38,7 +38,7 @@ Once the user approves the plan:
 
 3. Write `shopping/list.md`:
    - Only items that need to be bought (not things the user already has)
-   - Grouped by `### Category`, items as `- [ ] item`
+   - Flat list, no category headings — just `- [ ] item` per line
 
 **Step 4 — Commit and push**
 Ask the user if they want to commit and push. If yes, stage all new/modified files and commit with a descriptive message, then push to `main`.

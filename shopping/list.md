@@ -1,3 +1,1 @@
-### Frugt & grønt
-
 - [ ] Bananer
