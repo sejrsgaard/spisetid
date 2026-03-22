@@ -27,7 +27,7 @@ Plain HTML/CSS/JS single-page app deployed to GitHub Pages at `https://sejrsgaar
 - `recipes/index.json` — ordered array of slugs; must be updated when adding/removing recipes
 - `recipes/<slug>.md` — recipe files with YAML-like frontmatter parsed by `parseFrontmatter()` in `app.js`
 - `planner/YYYY-WXX.md` — meal plan per ISO week; H2 headings per day, recipe links use `#/recipe/slug` hash format
-- `shopping/YYYY-WXX.md` — shopping list per ISO week; `- [ ] item` checkbox format grouped by `### Category` headings
+- `shopping/list.md` — single shopping list; `- [ ] item` checkbox format grouped by `### Category` headings
 - `marked.js` is loaded from CDN — no local dependency
 
 **Frontmatter format** for recipes:
@@ -51,7 +51,7 @@ The food week runs **Saturday to Friday** — shopping happens on Saturday, so t
 When the user asks for a meal plan:
 1. Read `recipes/index.json` and relevant recipe files to see available ingredients
 2. Write `planner/YYYY-WXX.md` — use H2 per day, link recipes with `#/recipe/slug`
-3. Write `shopping/YYYY-WXX.md` — group by `### Category`, use `- [ ] item` format
+3. Write `shopping/list.md` — group by `### Category`, use `- [ ] item` format
 4. Commit and push to `main`; GitHub Pages auto-deploys
 
 ## Recipe formatting rules

@@ -137,7 +137,7 @@ async function route() {
   } else if (hash.startsWith('#/shopping')) {
     currentPage = 'shopping';
     updateNavActive();
-    await renderShoppingPage(app, hash.split('/')[2] || currentWeekKey());
+    await renderShoppingPage(app);
   }
 }
 
@@ -329,24 +329,16 @@ function plannerMarkdownToHtml(content) {
 
 // Shopping list page
 
-async function renderShoppingPage(app, weekKey) {
-  const prev = addWeeks(weekKey, -1);
-  const next = addWeeks(weekKey, 1);
-
+async function renderShoppingPage(app) {
   app.innerHTML = `
     <div class="page-header"><h1>Indkøbsliste</h1></div>
-    <div class="week-nav">
-      <button onclick="location.hash='#/shopping/${prev}'">&larr;</button>
-      <span>${weekLabel(weekKey)}</span>
-      <button onclick="location.hash='#/shopping/${next}'">&rarr;</button>
-    </div>
     <div id="shopping-body"></div>
   `;
 
   const body = app.querySelector('#shopping-body');
 
   try {
-    const res = await fetch(`shopping/${weekKey}.md`);
+    const res = await fetch(`shopping/list.md`);
     if (!res.ok) throw new Error('not found');
     const text = await res.text();
     const { content } = parseFrontmatter(text);
@@ -355,7 +347,7 @@ async function renderShoppingPage(app, weekKey) {
   } catch {
     body.innerHTML = `
       <div class="empty-state">
-        <p>Ingen indkøbsliste for ${weekLabel(weekKey)}.</p>
+        <p>Ingen indkøbsliste.</p>
         <small>Bed Claude om at lave en madplan, s&aring; genereres indk&oslash;bslisten automatisk.</small>
       </div>
     `;

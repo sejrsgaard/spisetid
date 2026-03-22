@@ -36,7 +36,7 @@ Once the user approves the plan:
    - Link existing/new recipes: `[Title](#/recipe/slug)`
    - Plain text for leftovers or days without a recipe
 
-3. Write `shopping/YYYY-WXX.md`:
+3. Write `shopping/list.md`:
    - Only items that need to be bought (not things the user already has)
    - Grouped by `### Category`, items as `- [ ] item`
 
