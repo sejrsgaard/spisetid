@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "shawarma-kylling",
+    "title": "Shawarma med kylling",
+    "tags": ["Kylling", "Mellemøstlig"],
+    "description": "Krydret kylling med yogurtsauce og pitabrød — sidder midt imellem tacos og grillspyd."
+  },
+  {
+    "slug": "bibimbap",
+    "title": "Bibimbap",
+    "tags": ["Koreansk", "Ris"],
+    "description": "Koreansk risbowl med marineret oksekød, grøntsager og gochujang — ligesom den asiatiske salatbowl med mørbrad, men koreansk."
+  },
+  {
+    "slug": "thai-groen-curry",
+    "title": "Thai grøn curry",
+    "tags": ["Asiatisk"],
+    "description": "Kokosmælk og grønne krydderier — passer til kokos-mønsteret fra katsu-saucen, hurtig hverdagsret."
+  },
+  {
+    "slug": "falafel",
+    "title": "Falafel med pitabrød og hummus",
+    "tags": ["Vegetar", "Mellemøstlig"],
+    "description": "Kikærter er allerede et gennemgående ingrediens — her som sprøde falafler med hummus og pitabrød."
+  },
+  {
+    "slug": "shakshuka",
+    "title": "Shakshuka",
+    "tags": ["Vegetar", "Mellemøstlig"],
+    "description": "Æg pocheret i krydret tomatsauce med spidskommen — hurtig, vegetarisk og en pande."
+  },
+  {
+    "slug": "pad-thai",
+    "title": "Pad Thai",
+    "tags": ["Asiatisk", "Nudler"],
+    "description": "Wok-nudler med æg, peanutdressing og bønnespirer — peanuts og asiatiske smagsnoter kender du allerede."
+  },
+  {
+    "slug": "laks-misoglasur",
+    "title": "Laks med misoglasur",
+    "tags": ["Fisk", "Asiatisk"],
+    "description": "Ovnbagt laks med miso og sesamglasur — miso bruger du allerede i ramen, og fisk er underrepræsenteret i samlingen."
+  },
+  {
+    "slug": "bulgogi",
+    "title": "Koreansk bulgogi",
+    "tags": ["Kød", "Koreansk"],
+    "description": "Sødt-salt marineret oksekød på ris — tæt på den asiatiske salatbowl med mørbrad, men koreansk."
+  },
+  {
+    "slug": "dal",
+    "title": "Dal med naan",
+    "tags": ["Vegetar", "Indisk"],
+    "description": "Rød linsesuppe med spidskommen og ingefær — indisk som tikka masala, men vegetarisk og enklere."
+  }
+]

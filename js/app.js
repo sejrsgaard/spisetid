@@ -128,6 +128,10 @@ async function route() {
     currentPage = 'shopping';
     updateNavActive();
     await renderShoppingPage(app);
+  } else if (hash.startsWith('#/suggestions')) {
+    currentPage = 'suggestions';
+    updateNavActive();
+    await renderSuggestionsPage(app);
   }
 }
 
@@ -315,6 +319,65 @@ function plannerMarkdownToHtml(content) {
   }
 
   return `<div class="planner-week">${rows.join('')}</div>`;
+}
+
+// Suggestions page
+
+async function renderSuggestionsPage(app) {
+  const res = await fetch('suggestions/index.json');
+  const suggestions = await res.json();
+
+  function getWanted() {
+    try { return JSON.parse(localStorage.getItem('suggestions-wanted') || '[]'); }
+    catch { return []; }
+  }
+
+  function toggleWanted(slug) {
+    const wanted = getWanted();
+    const idx = wanted.indexOf(slug);
+    if (idx === -1) wanted.push(slug);
+    else wanted.splice(idx, 1);
+    localStorage.setItem('suggestions-wanted', JSON.stringify(wanted));
+  }
+
+  function renderCards() {
+    const wanted = getWanted();
+    grid.innerHTML = suggestions.map(s => {
+      const isWanted = wanted.includes(s.slug);
+      return `
+        <div class="suggestion-card${isWanted ? ' wanted' : ''}">
+          <div class="suggestion-card-body">
+            <h2>${s.title}</h2>
+            <p>${s.description}</p>
+            <div class="recipe-card-tags">
+              ${(s.tags || []).map(t => `<span>${t}</span>`).join('')}
+            </div>
+          </div>
+          <button class="want-btn${isWanted ? ' active' : ''}" data-slug="${s.slug}">
+            ${isWanted ? '&#10003; Vil have' : 'Vil have'}
+          </button>
+        </div>
+      `;
+    }).join('');
+
+    grid.querySelectorAll('.want-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        toggleWanted(btn.dataset.slug);
+        renderCards();
+      });
+    });
+  }
+
+  app.innerHTML = `
+    <div class="page-header">
+      <h1>Forslag</h1>
+      <p class="page-subtitle">Opskrifter vi m&aring;ske vil pr&oslash;ve &mdash; marker dem du vil have, og bed Claude om at tilf&oslash;je dem.</p>
+    </div>
+    <div id="suggestions-grid" class="suggestions-grid"></div>
+  `;
+
+  const grid = app.querySelector('#suggestions-grid');
+  renderCards();
 }
 
 // Shopping list page
