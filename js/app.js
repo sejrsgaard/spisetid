@@ -35,50 +35,40 @@ function parseFrontmatter(text) {
   return { meta, content };
 }
 
-// ISO week utilities
+// Week utilities (Saturday–Friday weeks)
 
-function isoWeekNumber(date) {
-  const d = new Date(date);
-  d.setHours(0, 0, 0, 0);
-  d.setDate(d.getDate() + 3 - (d.getDay() + 6) % 7);
-  const week1 = new Date(d.getFullYear(), 0, 4);
-  return 1 + Math.round(((d - week1) / 86400000 - 3 + (week1.getDay() + 6) % 7) / 7);
+function formatDate(date) {
+  const y = date.getFullYear();
+  const m = String(date.getMonth() + 1).padStart(2, '0');
+  const d = String(date.getDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
 }
 
-function isoWeekYear(date) {
-  const d = new Date(date);
-  d.setDate(d.getDate() + 3 - (d.getDay() + 6) % 7);
-  return d.getFullYear();
+function parseDate(key) {
+  const [y, m, d] = key.split('-').map(Number);
+  return new Date(y, m - 1, d);
 }
 
 function currentWeekKey() {
   const now = new Date();
-  return `${isoWeekYear(now)}-W${String(isoWeekNumber(now)).padStart(2, '0')}`;
+  const daysFromSat = (now.getDay() + 1) % 7;
+  const sat = new Date(now);
+  sat.setDate(now.getDate() - daysFromSat);
+  return formatDate(sat);
 }
 
-function mondayOfWeek(weekKey) {
-  const [year, weekStr] = weekKey.split('-W');
-  const jan4 = new Date(Number(year), 0, 4);
-  const week1Monday = new Date(jan4);
-  week1Monday.setDate(jan4.getDate() - (jan4.getDay() + 6) % 7);
-  const monday = new Date(week1Monday);
-  monday.setDate(week1Monday.getDate() + (Number(weekStr) - 1) * 7);
-  return monday;
+function addWeeks(key, delta) {
+  const d = parseDate(key);
+  d.setDate(d.getDate() + delta * 7);
+  return formatDate(d);
 }
 
-function addWeeks(weekKey, delta) {
-  const monday = mondayOfWeek(weekKey);
-  monday.setDate(monday.getDate() + delta * 7);
-  return `${isoWeekYear(monday)}-W${String(isoWeekNumber(monday)).padStart(2, '0')}`;
-}
-
-function weekLabel(weekKey) {
-  const monday = mondayOfWeek(weekKey);
-  const sunday = new Date(monday);
-  sunday.setDate(monday.getDate() + 6);
-  const week = weekKey.split('-W')[1];
+function weekLabel(key) {
+  const sat = parseDate(key);
+  const fri = new Date(sat);
+  fri.setDate(sat.getDate() + 6);
   const fmt = d => d.toLocaleDateString('da-DK', { day: 'numeric', month: 'short' });
-  return `Uge ${week} (${fmt(monday)}\u2013${fmt(sunday)})`;
+  return `${fmt(sat)}\u2013${fmt(fri)}`;
 }
 
 // Recipe cache

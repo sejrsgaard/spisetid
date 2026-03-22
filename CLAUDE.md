@@ -20,13 +20,13 @@ Plain HTML/CSS/JS single-page app deployed to GitHub Pages at `https://sejrsgaar
 **Hash routing** — `js/app.js` listens to `hashchange` and renders pages into `<main id="app">`:
 - `#/recipes` — recipe grid with search + tag filter
 - `#/recipe/:slug` — single recipe detail
-- `#/planner/YYYY-WXX` — weekly meal plan (defaults to current ISO week)
-- `#/shopping/YYYY-WXX` — shopping list (defaults to current ISO week)
+- `#/planner/YYYY-MM-DD` — weekly meal plan keyed by the Saturday start date (defaults to current week's Saturday)
+- `#/shopping` — shopping list
 
 **Data flow:**
 - `recipes/index.json` — ordered array of slugs; must be updated when adding/removing recipes
 - `recipes/<slug>.md` — recipe files with YAML-like frontmatter parsed by `parseFrontmatter()` in `app.js`
-- `planner/YYYY-WXX.md` — meal plan per ISO week; H2 headings per day, recipe links use `#/recipe/slug` hash format
+- `planner/YYYY-MM-DD.md` — meal plan per week, keyed by the Saturday start date; H2 headings per day, recipe links use `#/recipe/slug` hash format
 - `shopping/list.md` — single shopping list; plain `- item` per line, no category headings (the app renders all items as checkboxes)
 - `marked.js` is loaded from CDN — no local dependency
 
@@ -50,7 +50,7 @@ The food week runs **Saturday to Friday** — shopping happens on Saturday, so t
 
 When the user asks for a meal plan:
 1. Read `recipes/index.json` and relevant recipe files to see available ingredients
-2. Write `planner/YYYY-WXX.md` — use H2 per day, link recipes with `#/recipe/slug`
+2. Write `planner/YYYY-MM-DD.md` (Saturday of that week) — use H2 per day, link recipes with `#/recipe/slug`
 3. Write `shopping/list.md` — group by `### Category`, use `- [ ] item` format
 4. Commit and push to `main`; GitHub Pages auto-deploys
 
