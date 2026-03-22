@@ -1,17 +1,12 @@
 ---
 title: Brasede Kartofler
+servings: 4 personer
+ingredients:
+  - 700 g kartofler
+  - 30 g smør
+  - 1 tsk salt
+  - Lidt peber
 ---
-**Antal:** 4 personer  
-**Tilberedningstid:** Ca. 30 min  
-
-## **Ingredienser**
-- 700 g kartofler  
-- 30 g smør  
-- 1 tsk salt  
-- Lidt peber  
-
----
-
 ## **Fremgangsmåde**
 
 1. **Forbered kartoflerne:**

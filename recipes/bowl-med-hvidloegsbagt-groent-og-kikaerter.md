@@ -1,48 +1,34 @@
 ---
 title: Bowl med hvidløgsbagt grønt og kikærter
 tags: [salat]
+servings: 4 personer
+ingredients:
+  - (Sprøde kikærter) 2 dåser kikærter, drænet og skyllet
+  - (Sprøde kikærter) 1 tsk røget paprika
+  - (Sprøde kikærter) 1 spsk olivenolie
+  - (Sprøde kikærter) 1 tsk flagesalt
+  - (Hvidløgsbagte grøntsager) 20 cherrytomater
+  - (Hvidløgsbagte grøntsager) 2 rød peberfrugt, i store tern
+  - (Hvidløgsbagte grøntsager) 100 g baby spinat
+  - (Hvidløgsbagte grøntsager) 1 squash, i store tern
+  - (Hvidløgsbagte grøntsager) 3 fed hvidløg, pressede
+  - (Hvidløgsbagte grøntsager) 1 tsk frisk rosmarin, finthakket
+  - (Hvidløgsbagte grøntsager) 2 spsk olivenolie
+  - (Hvidløgsbagte grøntsager) 0,50 tsk flagesalt
+  - (Hvidløgsbagte grøntsager) Sort peber
+  - (Ris med citronskal og persille) 3 dl basmati ris
+  - (Ris med citronskal og persille) 5 dl vand
+  - (Ris med citronskal og persille) 0,50 håndfuld persille, finthakket
+  - (Ris med citronskal og persille) 0,50 øko citron, fintrevet skal herfra
+  - (Ris med citronskal og persille) 0,50 tsk salt
+  - (Ris med citronskal og persille) 1 tsk olivenolie
+  - (Hvidløgsyoghurt) 3 fed hvidløg, pressede
+  - (Hvidløgsyoghurt) 1,50 dl yoghurt naturel
+  - (Hvidløgsyoghurt) Salt
+  - (Hvidløgsyoghurt) Sort peber, friskkværnet
+  - (Hvidløgsyoghurt) 0,50 håndfuld persille, finthakket
+  - (Til servering) 0,50 håndfuld persille, finthakket
 ---
-**Tid i alt:** 45 min  
-**Arbejdstid:** 45 min  
-**Antal:** 4 personer
-
-#### Ingredienser
-
-**Sprøde kikærter:**
-- 2 dåser kikærter, drænet og skyllet
-- 1 tsk røget paprika
-- 1 spsk olivenolie
-- 1 tsk flagesalt
-
-**Hvidløgsbagte grøntsager:**
-- 20 cherrytomater
-- 2 rød peberfrugt, i store tern
-- 100 g baby spinat
-- 1 squash, i store tern
-- 3 fed hvidløg, pressede
-- 1 tsk frisk rosmarin, finthakket
-- 2 spsk olivenolie
-- 0,50 tsk flagesalt
-- Sort peber
-
-**Ris med citronskal og persille:**
-- 3 dl basmati ris
-- 5 dl vand
-- 0,50 håndfuld persille, finthakket
-- 0,50 øko citron, fintrevet skal herfra
-- 0,50 tsk salt
-- 1 tsk olivenolie
-
-**Hvidløgsyoghurt:**
-- 3 fed hvidløg, pressede
-- 1,50 dl yoghurt naturel
-- Salt
-- Sort peber, friskkværnet
-- 0,50 håndfuld persille, finthakket
-
-**Til servering:**
-- 0,50 håndfuld persille, finthakket
-
 #### Fremgangsmåde
 
 1. **Sprøde kikærter:**  

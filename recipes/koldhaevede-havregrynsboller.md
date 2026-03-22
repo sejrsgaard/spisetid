@@ -1,22 +1,17 @@
 ---
 title: Koldhævede Havregrynsboller
 tags: [bagværk]
+servings: Ca. 10-12 stk.
+ingredients:
+  - 8 dl lunken vand
+  - 10 g gær
+  - 1 tsk honning (eller sukker)
+  - 1 tsk salt
+  - 2 spsk olivenolie
+  - 700 g hvedemel
+  - 200 g havregryn
+  - Kerner eller havregryn til pynt
 ---
-**Antal:** Ca. 10-12 stk.  
-**Bagetid:** 18-20 min
-
----
-
-#### **Ingredienser**
-- 8 dl lunken vand
-- 10 g gær
-- 1 tsk honning (eller sukker)
-- 1 tsk salt
-- 2 spsk olivenolie
-- 700 g hvedemel
-- 200 g havregryn
-- Kerner eller havregryn til pynt
-
 ---
 
 #### **Fremgangsmåde**
