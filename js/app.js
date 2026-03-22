@@ -342,7 +342,7 @@ async function renderShoppingPage(app) {
     if (!res.ok) throw new Error('not found');
     const text = await res.text();
     const { content } = parseFrontmatter(text);
-    const html = marked.parse(content).replace(/<li>\[ \] /g, '<li><input type="checkbox"> ');
+    const html = marked.parse(content).replace(/<li>/g, '<li><input type="checkbox"> ');
     body.innerHTML = `<div class="shopping-content">${html}</div>`;
   } catch {
     body.innerHTML = `

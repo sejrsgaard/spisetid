@@ -27,7 +27,7 @@ Plain HTML/CSS/JS single-page app deployed to GitHub Pages at `https://sejrsgaar
 - `recipes/index.json` — ordered array of slugs; must be updated when adding/removing recipes
 - `recipes/<slug>.md` — recipe files with YAML-like frontmatter parsed by `parseFrontmatter()` in `app.js`
 - `planner/YYYY-WXX.md` — meal plan per ISO week; H2 headings per day, recipe links use `#/recipe/slug` hash format
-- `shopping/list.md` — single shopping list; flat `- [ ] item` checkbox format, no category headings
+- `shopping/list.md` — single shopping list; plain `- item` per line, no category headings (the app renders all items as checkboxes)
 - `marked.js` is loaded from CDN — no local dependency
 
 **Frontmatter format** for recipes:
