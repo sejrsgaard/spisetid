@@ -52,5 +52,23 @@
     "title": "Dal med naan",
     "tags": ["Vegetar", "Indisk"],
     "description": "Rød linsesuppe med spidskommen og ingefær — indisk som tikka masala, men vegetarisk og enklere."
+  },
+  {
+    "slug": "smorboønner-med-chorizo-og-tomat",
+    "title": "Smørbønner med chorizo og tomat",
+    "tags": ["Bønner", "Spansk"],
+    "description": "Store smørbønner braiseret i krydret tomatsauce med chorizo — simpelt og mættende med godt brød til."
+  },
+  {
+    "slug": "toscanske-hvide-boønner",
+    "title": "Toscanske hvide bønner med rosmarin",
+    "tags": ["Bønner", "Vegetar", "Italiensk"],
+    "description": "Smørbønner stegt i rigeligt olivenolie med hvidløg, rosmarin og parmesan — klassisk toscansk comfort food."
+  },
+  {
+    "slug": "boennesuppe-med-groenkaal-og-pancetta",
+    "title": "Bønnesuppe med grønkål og pancetta",
+    "tags": ["Bønner", "Suppe"],
+    "description": "Ribollita-inspireret suppe med hvide bønner, grønkål og pancetta — tyk, varm og endnu bedre dagen efter."
   }
 ]
