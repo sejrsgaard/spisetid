@@ -346,13 +346,13 @@ async function renderSuggestionsPage(app) {
       const isWanted = wanted.includes(s.slug);
       return `
         <div class="suggestion-card${isWanted ? ' wanted' : ''}">
-          <div class="suggestion-card-body">
+          <a href="#/recipe/${s.slug}" class="suggestion-card-body">
             <h2>${s.title}</h2>
             <p>${s.description}</p>
             <div class="recipe-card-tags">
               ${(s.tags || []).map(t => `<span>${t}</span>`).join('')}
             </div>
-          </div>
+          </a>
           <button class="want-btn${isWanted ? ' active' : ''}" data-slug="${s.slug}">
             ${isWanted ? '&#10003; Vil have' : 'Vil have'}
           </button>

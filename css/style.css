@@ -489,6 +489,8 @@ main {
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
+  text-decoration: none;
+  color: inherit;
 }
 
 .suggestion-card h2 {
