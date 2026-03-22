@@ -52,6 +52,44 @@ When the user asks for a meal plan:
 3. Write `shopping/YYYY-WXX.md` — group by `### Category`, use `- [ ] item` format
 4. Commit and push to `main`; GitHub Pages auto-deploys
 
+## Recipe formatting rules
+
+These rules apply to all recipe `.md` files. Enforce them when adding or editing recipes.
+
+**Body structure:**
+- First heading must be `## Fremgangsmåde` (H2, not H3/H4)
+- If the recipe has distinct sub-steps (e.g. sauce + protein), use `**SubSection**` bold labels as paragraphs — never as headings
+- No `### Samlet tid` or similar meta-headings in the body; time goes in frontmatter
+
+**Numbered steps:**
+- Use a flat numbered list — one step per line, no nested bullet points under numbers
+- Inline the step label: `1. **Kartofler:** Kog kartoflerne...` — not a heading + bullet
+
+**Bold text:**
+- Bold markers must open and close on the same line: `**text**`
+- Never split a bold across lines (`**text\n**`)
+
+**Example of correct body:**
+```markdown
+## Fremgangsmåde
+
+**Sauce**
+
+Rist karry i en tør gryde...
+
+**Kylling**
+
+Bank fileterne flade...
+```
+
+Or with numbered steps:
+```markdown
+## Fremgangsmåde
+
+1. **Kartofler:** Kog kartoflerne i 15 minutter.
+2. **Dressing:** Bland olie, sennep og citronsaft.
+```
+
 ## Adding recipes
 
 1. Create `recipes/<slug>.md` with frontmatter (title, tags, servings, time, ingredients list)
