@@ -1,0 +1,62 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Local development
+
+The site uses `fetch()` so it requires an HTTP server — opening `index.html` directly via `file://` will not work:
+
+```bash
+python3 -m http.server 8000
+# open http://localhost:8000
+```
+
+There is no build step, no package manager, and no test suite.
+
+## Architecture
+
+Plain HTML/CSS/JS single-page app deployed to GitHub Pages at `https://sejrsgaard.github.io/spisetid/`.
+
+**Hash routing** — `js/app.js` listens to `hashchange` and renders pages into `<main id="app">`:
+- `#/recipes` — recipe grid with search + tag filter
+- `#/recipe/:slug` — single recipe detail
+- `#/planner/YYYY-WXX` — weekly meal plan (defaults to current ISO week)
+- `#/shopping/YYYY-WXX` — shopping list (defaults to current ISO week)
+
+**Data flow:**
+- `recipes/index.json` — ordered array of slugs; must be updated when adding/removing recipes
+- `recipes/<slug>.md` — recipe files with YAML-like frontmatter parsed by `parseFrontmatter()` in `app.js`
+- `planner/YYYY-WXX.md` — meal plan per ISO week; H2 headings per day, recipe links use `#/recipe/slug` hash format
+- `shopping/YYYY-WXX.md` — shopping list per ISO week; `- [ ] item` checkbox format grouped by `### Category` headings
+- `marked.js` is loaded from CDN — no local dependency
+
+**Frontmatter format** for recipes:
+```
+---
+title: Recipe name
+tags: [tag1, tag2]
+servings: 4
+time: 30 min
+ingredients:
+  - item 1
+  - (SubSection) item 2
+---
+```
+Ingredients are displayed in a sticky sidebar. The markdown body (after frontmatter) is rendered as instructions.
+
+## Meal plan workflow
+
+When the user asks for a meal plan:
+1. Read `recipes/index.json` and relevant recipe files to see available ingredients
+2. Write `planner/YYYY-WXX.md` — use H2 per day, link recipes with `#/recipe/slug`
+3. Write `shopping/YYYY-WXX.md` — group by `### Category`, use `- [ ] item` format
+4. Commit and push to `main`; GitHub Pages auto-deploys
+
+## Adding recipes
+
+1. Create `recipes/<slug>.md` with frontmatter (title, tags, servings, time, ingredients list)
+2. Add the slug to `recipes/index.json`
+
+Source recipes live in Google Drive at:
+`/Users/ksj/Library/CloudStorage/GoogleDrive-ksj2209@gmail.com/My Drive/Garden/Garden/Opskrifter/`
+These are Obsidian-formatted `.md` files with `dg-publish: true` frontmatter that must be converted (strip Obsidian frontmatter/embeds, extract ingredients section into frontmatter list).
