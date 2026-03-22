@@ -10,6 +10,13 @@ Add a new recipe to the spisetid project.
 
 `$ARGUMENTS` is the recipe name or a hint (e.g. "pasta carbonara", "shawarma"). If not provided, ask the user what recipe to add.
 
+## Preferences
+
+Apply these when composing or adapting any recipe:
+
+- **No curry** — do not add curry-based recipes. The one exception already in the collection is Boller i Karry.
+- **Reduce acidity** — avoid heavy tomato-based sauces. Where tomatoes appear, use them sparingly or balance with cream, butter or stock rather than making them the dominant element.
+
 ## Workflow
 
 **Step 1 — Compose the recipe**
