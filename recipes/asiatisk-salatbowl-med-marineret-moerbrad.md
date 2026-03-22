@@ -1,7 +1,7 @@
 ---
 title: Asiatisk salatbowl med marineret mørbrad
 tags: [salat]
-time: 30 minutter
+time: 2 timer
 ingredients:
   - 1 svinemørbrad
   - 1/2 dl olie
@@ -20,10 +20,6 @@ ingredients:
   - Frisk rød chili
   - Persille
 ---
-**Forberedelsestid**: 1 times tid, måske 2 (trækketid)
-**Tilberedelsestid**: 30 minutter
-**Samlet tid**: 2 timer
-
 ## Fremgangsmåde
 1. Bland marinaden sammen til kødet ved at komme olie, soya og brun farin i en skål
 2. Hak hvidløg, chili og riv ingefær ned i skålen og rør sammen
