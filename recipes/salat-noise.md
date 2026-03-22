@@ -1,6 +1,7 @@
 ---
 title: Salat Noise
 tags: [salat]
+time: 35 minutter
 ingredients:
   - (Salat) Lidt sprød salat til bunden
   - (Salat) 200-300 g kartofler

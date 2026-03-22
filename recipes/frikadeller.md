@@ -2,6 +2,7 @@
 title: Frikadeller
 tags: [kød]
 servings: 14 styks
+time: 20 minutter
 ingredients:
   - 500 g hakket svin og kalv
   - 2 æg

@@ -2,6 +2,7 @@
 title: Bowl med hvidløgsbagt grønt og kikærter
 tags: [salat]
 servings: 4 personer
+time: 50 minutter
 ingredients:
   - (Sprøde kikærter) 2 dåser kikærter, drænet og skyllet
   - (Sprøde kikærter) 1 tsk røget paprika

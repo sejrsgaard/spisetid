@@ -2,6 +2,7 @@
 title: Svinemørbrad på spyd med grillede grøntsager og krydret yoghurt
 tags: [kød]
 servings: 4 personer
+time: 45 minutter
 ingredients:
   - (Svinemørbrad på spyd) 1 svinemørbrad (ca. 500 g)
   - (Svinemørbrad på spyd) 2 spsk olivenolie

@@ -1,6 +1,7 @@
 ---
 title: Svinemørbrad
 tags: [kød]
+time: 20 minutter
 ingredients:
   - 1 svinemørbrad (ca. 600 g)
   - 75 g dukkah (se opskrift)

@@ -1,6 +1,7 @@
 ---
 title: Brasede Kartofler
 servings: 4 personer
+time: 25 minutter
 ingredients:
   - 700 g kartofler
   - 30 g smør

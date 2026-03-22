@@ -1,6 +1,7 @@
 ---
 title: Cremet Pastasalat Med Kylling
 tags: [kylling]
+time: 25 minutter
 ingredients:
   - **Kød og pasta:**
   - **Grøntsager:**

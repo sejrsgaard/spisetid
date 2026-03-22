@@ -1,6 +1,7 @@
 ---
 title: Knuste kartofler med parmesan og timian
 servings: 4 personer
+time: 45 minutter
 ingredients:
   - 12 kartofler (gerne store, fx bagekartofler)
   - 3 spsk olivenolie

@@ -1,6 +1,7 @@
 ---
 title: Chili Con Carne
 tags: [kød]
+time: 50 minutter
 ingredients:
   - (Til servering) 125 g nachos
   - (Til servering) 3 dl ris

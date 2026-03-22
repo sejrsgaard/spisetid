@@ -1,6 +1,7 @@
 ---
 title: Kold Kartoffelsalat
 tags: [salat]
+time: 30 minutter
 ingredients:
   - (Dressing) 200 g cremefraiche 18
   - (Dressing) 4 spsk. mayonnaise

@@ -2,6 +2,7 @@
 title: Tacotærte
 tags: [mexicansk]
 servings: 6-8 stykker
+time: 45 minutter
 ingredients:
   - (Tærtedej) 200 g hvedemel (erstat evt. noget med en grovere type)
   - (Tærtedej) 1 lille tsk. salt

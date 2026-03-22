@@ -2,6 +2,7 @@
 title: Tacoskaller med Oksekød
 tags: [mexicansk]
 servings: 2 voksne og 2 børn
+time: 25 minutter
 ingredients:
   - 2 løg
   - 400 g hakket oksekød

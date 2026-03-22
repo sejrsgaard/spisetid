@@ -1,5 +1,6 @@
 ---
 title: Kartoffelrösti
+time: 40 minutter
 ingredients:
   - 4 bagekartofler
   - 1 løg

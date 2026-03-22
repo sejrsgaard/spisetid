@@ -1,6 +1,7 @@
 ---
 title: Boller i Karry
 tags: [kød]
+time: 35 minutter
 ingredients:
   - (Kødboller) 400 g hakket svine- og kalvekød
   - (Kødboller) 1 tsk salt

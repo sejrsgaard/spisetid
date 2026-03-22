@@ -1,6 +1,7 @@
 ---
 title: Bulgursalat med tørret frugt
 tags: [salat]
+time: 20 minutter
 ingredients:
   - 3 dl bulgur
   - 75 g tørrede abrikoser

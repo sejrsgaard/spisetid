@@ -1,6 +1,7 @@
 ---
 title: Chicken Tikka Masala
 tags: [kylling]
+time: 1 time 15 minutter
 ingredients:
   - (Marinade) 150 g / 2 dl græsk yoghurt (brug evt. 2 % fedt)
   - (Marinade) 1/3 tsk. chilipulver

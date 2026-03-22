@@ -1,6 +1,7 @@
 ---
 title: Pebernødder
 tags: [bagværk]
+time: 1 time 20 minutter
 ingredients:
   - 1400 g hvedemel
   - 760 g margarine (kan erstattes med smør)

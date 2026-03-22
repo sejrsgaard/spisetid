@@ -2,6 +2,7 @@
 title: Vafler med sød kartoffel
 tags: [bagværk]
 servings: 4 vafler afhængig af størrelse
+time: 20 minutter
 ingredients:
   - 275 g kartofler (målt med skræl på)
   - 200 g sød kartoffel

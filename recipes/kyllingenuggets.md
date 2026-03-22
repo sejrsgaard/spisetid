@@ -2,6 +2,7 @@
 title: Kyllingenuggets
 tags: [kylling]
 servings: 4 personer
+time: 20 minutter
 ingredients:
   - (Marinade) 3 fed hvidløg
   - (Marinade) 1 stor spsk. tørret spidskommen

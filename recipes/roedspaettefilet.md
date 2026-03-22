@@ -1,6 +1,7 @@
 ---
 title: Rødspættefilet
 tags: [fisk]
+time: 10 minutter
 ingredients:
   - 4 rødspættefileter
   - 1 dl rugmel

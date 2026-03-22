@@ -1,5 +1,6 @@
 ---
 title: Flødekartofler med løg og muskatnød
+time: 1 time 45 minutter
 ingredients:
   - 1,5 kg kartofler
   - 2 løg

@@ -1,6 +1,7 @@
 ---
 title: Langtidsstegt Lammekølle
 tags: [lam]
+time: 5 timer 30 minutter
 ingredients:
   - 1 lammekølle (ca. 2,5 kg)
   - 2-3 gulerødder

@@ -1,6 +1,7 @@
 ---
 title: Wraps med okse, guacamole og salsa
 tags: [bagværk]
+time: 20 minutter
 ingredients:
   - 2 tortillapandekager
   - Lidt olie til stegning

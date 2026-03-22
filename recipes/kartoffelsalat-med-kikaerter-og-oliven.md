@@ -1,6 +1,7 @@
 ---
 title: Kartoffelsalat med kikærter og oliven
 tags: [salat]
+time: 25 minutter
 ingredients:
   - Lidt sprød salat til bunden
   - 200-300 g kartofler

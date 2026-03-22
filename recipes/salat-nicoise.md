@@ -1,6 +1,7 @@
 ---
 title: Salat Nicoise
 tags: [salat]
+time: 35 minutter
 ingredients:
   - Lidt sprød salat til bunden
   - 200-300 g kartofler

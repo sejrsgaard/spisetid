@@ -1,6 +1,7 @@
 ---
 title: Hakkebøffer m. bløde løg
 tags: [kød]
+time: 35 minutter
 ingredients:
   - 600 g hakket oksekød (med 10 procent fedt)
   - 3 store løg

@@ -1,6 +1,7 @@
 ---
 title: Risengrød
 servings: 4 personer
+time: 60 minutter
 ingredients:
   - 1 liter letmælk
   - 125 g grødris

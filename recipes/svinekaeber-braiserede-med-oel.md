@@ -1,6 +1,7 @@
 ---
 title: Svinekæber – braiserede med øl
 tags: [kød]
+time: 2 timer 30 minutter
 ingredients:
   - (Braiserede Svinekæber) 750 g svinekæber
   - (Braiserede Svinekæber) 20 g smør

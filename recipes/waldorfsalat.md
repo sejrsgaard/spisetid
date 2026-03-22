@@ -2,6 +2,7 @@
 title: Waldorfsalat
 tags: [salat]
 servings: 4 personer
+time: 15 minutter
 ingredients:
   - (Salat) 2 æbler
   - (Salat) 60 g bladselleri

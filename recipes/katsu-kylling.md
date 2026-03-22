@@ -1,6 +1,7 @@
 ---
 title: Katsu Kylling
 tags: [kylling]
+time: 45 minutter
 ingredients:
   - (Karrysauce) 2 spsk mediumstærk karry
   - (Karrysauce) 300 g squash, i tern

@@ -1,6 +1,7 @@
 ---
 title: Panerede Rejer
 tags: [fisk]
+time: 15 minutter
 ingredients:
   - (Peanutdressing) 3 spsk peanut butter
   - (Peanutdressing) 1 lime, saften

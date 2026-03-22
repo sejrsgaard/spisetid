@@ -1,6 +1,7 @@
 ---
 title: Medisterpølse
 tags: [kød]
+time: 25 minutter
 ingredients:
   - 800 g medisterpølse
   - Vand (til kogning)

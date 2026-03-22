@@ -2,6 +2,7 @@
 title: Koldhævede Havregrynsboller
 tags: [bagværk]
 servings: Ca. 10-12 stk.
+time: Koldhævet natten over + 25 minutter
 ingredients:
   - 8 dl lunken vand
   - 10 g gær

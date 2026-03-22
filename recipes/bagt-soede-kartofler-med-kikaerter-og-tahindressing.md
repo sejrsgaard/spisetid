@@ -2,6 +2,7 @@
 title: Bagt Søde Kartofler med Kikærter og Tahindressing
 tags: [vegetar]
 servings: 4 personer
+time: 55 minutter
 ingredients:
   - (Søde kartofler) 4 søde kartofler (hele, med skræl)
   - (Søde kartofler) 2 spsk olivenolie

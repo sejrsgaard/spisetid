@@ -2,6 +2,7 @@
 title: Pariserbøffer
 tags: [salat]
 servings: 4 personer
+time: 20 minutter
 ingredients:
   - (Hovedingredienser) 4 toastbrød (vi brugte fuldkorn)
   - (Hovedingredienser) 100 g salat (vi brugte feldsalat)

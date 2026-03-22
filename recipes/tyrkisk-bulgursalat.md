@@ -2,6 +2,7 @@
 title: Tyrkisk Bulgursalat
 tags: [salat]
 servings: 4 personer
+time: 25 minutter
 ingredients:
   - (Salat) 2 dl bulgur (målt inden kogning) + 5 dl vand og salt
   - (Salat) 85 g grønne bønner fra frost (haricot verts)

@@ -1,6 +1,7 @@
 ---
 title: Cæsarslat med sprød kylling
 tags: [kylling]
+time: 20 minutter
 ingredients:
   - 1 æg
   - 50 g pankorasp

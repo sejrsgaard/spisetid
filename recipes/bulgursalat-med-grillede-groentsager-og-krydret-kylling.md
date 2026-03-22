@@ -2,6 +2,7 @@
 title: Bulgursalat med grillede grøntsager og krydret kylling
 tags: [kylling]
 servings: 4 personer
+time: 35 minutter
 ingredients:
   - (Bulgur) 2 dl bulgur
   - (Bulgur) 4 dl grøntsagsbouillon

@@ -1,6 +1,7 @@
 ---
 title: Bulgur Salat med Kylling og Avocado
 tags: [kylling]
+time: 25 minutter
 ingredients:
   - 200 g bulgur
   - 400 ml vand eller grøntsagsbouillon

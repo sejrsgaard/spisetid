@@ -1,6 +1,7 @@
 ---
 title: Pitapizza
 servings: 8 pitaer
+time: 15 minutter
 ingredients:
   - 8 stk. pitabrød
   - 1 glas basilikumspesto af god kvalitet
