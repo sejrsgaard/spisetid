@@ -27,10 +27,11 @@ ingredients:
   - (Til servering) 1 tsk sesamfrø
   - (Til servering) 1 tsk chiliflager
 ---
-### Fremgangsmåde
+## Fremgangsmåde
 
-**Karrysauce  
-**Rist karry i en tør gryde til det dufter dejligt. Tilføj olie, squash, gulerødder, løg, hvidløg, æble og gurkemeje og rør det godt sammen et par minutter i gryden.
+**Karrysauce**
+
+Rist karry i en tør gryde til det dufter dejligt. Tilføj olie, squash, gulerødder, løg, hvidløg, æble og gurkemeje og rør det godt sammen et par minutter i gryden.
 
 Tilføj kokosmælk. Læg låg på og lad det simre i omkring 15 minutter eller til gulerødderne er møre.
 
