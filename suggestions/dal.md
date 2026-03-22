@@ -13,15 +13,12 @@ ingredients:
   - (Dal) 1 tsk. gurkemeje
   - (Dal) 1 tsk. garam masala
   - (Dal) 1 tsk. koriander (stødt)
-  - (Dal) 1/2 tsk. chilipulver (eller efter smag)
-  - (Dal) 1 dåse hakkede tomater (400 g)
-  - (Dal) 800 ml grøntsagsbouillon
-  - (Dal) Saft af 1/2 citron
+  - (Dal) 1 liter grøntsagsbouillon
   - (Dal) Salt
   - (Tarka) 2 spsk. ghee eller smør
   - (Tarka) 1 tsk. spidskommen (hele frø)
   - (Tarka) 2 fed hvidløg (i tynde skiver)
-  - (Tarka) 1/2 tsk. chiliflager
+  - (Tarka) 1/4 tsk. chiliflager (valgfrit)
   - (Server med) 4 naanbrød (købt eller hjemmelavede)
   - (Server med) Frisk koriander
   - (Server med) Græsk yoghurt
@@ -30,9 +27,9 @@ ingredients:
 
 1. **Basis:** Varm ghee i en stor gryde over middelhøj varme. Steg løg i 8–10 minutter til gyldent. Tilsæt hvidløg og ingefær, steg 1 minut.
 
-2. **Krydderier:** Tilsæt spidskommen, gurkemeje, garam masala, koriander og chilipulver. Steg 1 minut under omrøring.
+2. **Krydderier:** Tilsæt spidskommen, gurkemeje, garam masala og koriander. Steg 1 minut under omrøring.
 
-3. **Kog:** Tilsæt hakkede tomater og rør rundt. Tilsæt linser og bouillon. Bring i kog, skru ned og lad simre 20–25 minutter, til linserne er helt udkogte og dalen er cremet. Rør jævnligt. Smag til med citronsaft og salt.
+3. **Kog:** Tilsæt linser og bouillon. Bring i kog, skru ned og lad simre 20–25 minutter, til linserne er helt udkogte og dalen er cremet. Rør jævnligt. Smag til med salt.
 
 4. **Tarka:** Varm ghee i en lille pande. Tilsæt spidskommenfrø — de syder med det samme. Tilsæt hvidløgsskiver og chiliflager og steg 30–60 sekunder til hvidløget er let gylden. Hæld straks over dalen.
 

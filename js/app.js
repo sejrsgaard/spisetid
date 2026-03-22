@@ -128,6 +128,10 @@ async function route() {
     currentPage = 'shopping';
     updateNavActive();
     await renderShoppingPage(app);
+  } else if (hash.startsWith('#/suggestion/')) {
+    currentPage = 'suggestions';
+    updateNavActive();
+    await renderSuggestionPage(app, decodeURIComponent(hash.slice('#/suggestion/'.length)));
   } else if (hash.startsWith('#/suggestions')) {
     currentPage = 'suggestions';
     updateNavActive();
@@ -346,7 +350,7 @@ async function renderSuggestionsPage(app) {
       const isWanted = wanted.includes(s.slug);
       return `
         <div class="suggestion-card${isWanted ? ' wanted' : ''}">
-          <a href="#/recipe/${s.slug}" class="suggestion-card-body">
+          <a href="#/suggestion/${s.slug}" class="suggestion-card-body">
             <h2>${s.title}</h2>
             <p>${s.description}</p>
             <div class="recipe-card-tags">
@@ -378,6 +382,39 @@ async function renderSuggestionsPage(app) {
 
   const grid = app.querySelector('#suggestions-grid');
   renderCards();
+}
+
+async function renderSuggestionPage(app, slug) {
+  const res = await fetch(`suggestions/${slug}.md`);
+  if (!res.ok) {
+    app.innerHTML = `
+      <a href="#/suggestions" class="back-link">&larr; Forslag</a>
+      <div class="empty-state"><p>Forslag ikke fundet.</p></div>
+    `;
+    return;
+  }
+  const text = await res.text();
+  const { meta, content } = parseFrontmatter(text);
+  const instructionsHtml = marked.parse(content || '');
+
+  app.innerHTML = `
+    <div class="recipe-detail">
+      <a href="#/suggestions" class="back-link">&larr; Forslag</a>
+      <h1>${meta.title || slug}</h1>
+      <div class="recipe-detail-meta">
+        ${meta.time ? `<span>&#9201; ${meta.time}</span>` : ''}
+        ${meta.servings ? `<span>&#128101; ${/^\d+$/.test(String(meta.servings).trim()) ? meta.servings + ' personer' : meta.servings}</span>` : ''}
+        ${(meta.tags || []).map(t => `<span>${t}</span>`).join('')}
+      </div>
+      <div class="recipe-layout">
+        <div class="ingredients-box">
+          <h2>Ingredienser</h2>
+          ${renderIngredientGroups(meta.ingredients || [])}
+        </div>
+        <div class="instructions">${instructionsHtml}</div>
+      </div>
+    </div>
+  `;
 }
 
 // Shopping list page

@@ -11,8 +11,7 @@ ingredients:
   - 4 fed hvidløg (hakket)
   - 1 tsk. frisk rosmarin (hakket) eller 1/2 tsk. tørret
   - 2 dåser hvide bønner eller cannellini (à 400 g, afskyllede)
-  - 1 dåse hakkede tomater (400 g)
-  - 1 liter kylling- eller grøntsagsbouillon
+  - 1,25 liter kylling- eller grøntsagsbouillon
   - 200 g grønkål (grove stilke fjernet, bladene groft hakket)
   - Parmesanskorpe (valgfrit, men giver meget smag)
   - Salt og peber
@@ -26,7 +25,7 @@ ingredients:
 
 3. **Mos:** Tilsæt den ene dåse bønner og most dem groft i gryden med en gaffel — det giver suppen krop.
 
-4. **Kog:** Tilsæt hakkede tomater, bouillon, den anden dåse hele bønner og parmesanskorpen. Bring i kog, skru ned og lad simre 20 minutter.
+4. **Kog:** Tilsæt bouillon, den anden dåse hele bønner og parmesanskorpen. Bring i kog, skru ned og lad simre 20 minutter.
 
 5. **Grønkål:** Tilsæt grønkål og lad simre yderligere 10 minutter til grønkålen er mør. Smag til med salt og peber. Fjern parmesanskorpen.
 

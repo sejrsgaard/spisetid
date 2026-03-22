@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git push:*)",
+      "Bash(ssh:*)",
+      "Bash(python3:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(wc -l grep -rl \"Tid i alt\\\\|Arbejdstid\\\\|Antal:\" /Users/ksj/Code/sejrsgaard/spisetid/recipes/)",
+      "Bash(wc -l grep -rl \"#### Ingredienser\" /Users/ksj/Code/sejrsgaard/spisetid/recipes/ grep -rl \"Tid i alt\\\\|Arbejdstid\\\\|Antal:\" /Users/ksj/Code/sejrsgaard/spisetid/recipes/)",
+      "Bash(git pull:*)",
+      "Bash(ls:*)",
+      "Bash(git rm:*)",
+      "Bash(git rebase:*)",
+      "Bash(dig spisetid.sejrsgaard-jacobsen.dk CNAME +short)",
+      "Bash(dig spisetid.sejrsgaard-jacobsen.dk AAAA +short)",
+      "Bash(git mv:*)",
+      "Bash(for slug:*)",
+      "Bash(do echo:*)",
+      "Read(//Users/ksj/Code/sejrsgaard/spisetid/recipes/**)",
+      "Bash(done)",
+      "Bash(do)"
+    ]
+  }
+}

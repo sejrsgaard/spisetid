@@ -18,7 +18,7 @@ ingredients:
   - (Grøntsager) Sesamolie, sojasauce og salt til stegning
   - (Server med) 350 g jasminris (tør vægt)
   - (Server med) 4 æg
-  - (Server med) Gochujang (koreansk chilipasta)
+  - (Server med) Gochujang (koreansk chilipasta, valgfrit)
   - (Server med) Sesamfrø og forårsløg til pynt
 ---
 ## Fremgangsmåde
@@ -37,4 +37,4 @@ ingredients:
 
 5. **Æg:** Steg æggene på panden med lidt olie, til hviden er sat men blommen stadig blød.
 
-6. **Saml:** Anret ris i dybe skåle. Læg kød og grøntsager i sektioner ovenpå. Top med et spejlæg og en skefuld gochujang. Bland det hele sammen ved bordet.
+6. **Saml:** Anret ris i dybe skåle. Læg kød og grøntsager i sektioner ovenpå. Top med et spejlæg og evt. en lille skefuld gochujang. Bland det hele sammen ved bordet.

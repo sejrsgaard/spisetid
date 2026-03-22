@@ -12,12 +12,11 @@ ingredients:
   - (Marinade) 1/2 tsk. gurkemeje
   - (Marinade) 1/2 tsk. kanel
   - (Marinade) 1/2 tsk. koriander
-  - (Marinade) 1/4 tsk. cayennepeber
-  - (Marinade) Saft af 1/2 citron
+  - (Marinade) Saft af 1/4 citron
   - (Marinade) Salt og peber
   - (Yogurtsauce) 200 g græsk yoghurt
   - (Yogurtsauce) 1 fed hvidløg (revet)
-  - (Yogurtsauce) Saft af 1/2 citron
+  - (Yogurtsauce) 1 tsk. citronsaft
   - (Yogurtsauce) 1 spsk. tahini
   - (Yogurtsauce) Salt
   - (Server med) 4 pitabrød
