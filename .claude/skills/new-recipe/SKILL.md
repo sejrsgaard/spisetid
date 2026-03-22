@@ -15,7 +15,7 @@ Add a new recipe to the spisetid project.
 Apply these when composing or adapting any recipe:
 
 - **No curry** — do not add curry-based recipes. The one exception already in the collection is Boller i Karry.
-- **Reduce acidity** — avoid heavy tomato-based sauces. Where tomatoes appear, use them sparingly or balance with cream, butter or stock rather than making them the dominant element.
+- **Reduce acid reflux triggers** — avoid or minimise ingredients that commonly cause acid reflux: large amounts of tomato, citrus juice (lemon/lime as a finish is fine, but not as a primary flavour), raw garlic in large quantities, chili/cayenne beyond mild seasoning, and alcohol-based sauces. Where these appear, use them sparingly or substitute — e.g. cream or stock instead of tomato as a sauce base, mild herbs instead of chili heat.
 
 ## Workflow
 
