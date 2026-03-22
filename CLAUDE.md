@@ -96,7 +96,3 @@ Or with numbered steps:
 
 1. Create `recipes/<slug>.md` with frontmatter (title, tags, servings, time, ingredients list)
 2. Add the slug to `recipes/index.json`
-
-Source recipes live in Google Drive at:
-`/Users/ksj/Library/CloudStorage/GoogleDrive-ksj2209@gmail.com/My Drive/Garden/Garden/Opskrifter/`
-These are Obsidian-formatted `.md` files with `dg-publish: true` frontmatter that must be converted (strip Obsidian frontmatter/embeds, extract ingredients section into frontmatter list).

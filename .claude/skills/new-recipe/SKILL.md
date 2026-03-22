@@ -19,7 +19,7 @@ Produce a recipe file following the formatting rules in `CLAUDE.md` exactly:
 - Frontmatter: `title`, `tags` (array), `servings`, `time`, `ingredients` (list, with `(SubSection)` prefixes where the recipe has distinct component groups)
 - Slug: lowercase Danish, spaces → hyphens, `æ→ae`, `ø→oe`, `å→aa` — no special characters
 - Body: starts with `## Fremgangsmåde`, numbered flat steps with inline bold labels, no sub-headings in the body
-- Ingredients: extract from the Obsidian source or compose from scratch; group logically with `(SubSection)` if needed
+- Ingredients: group logically with `(SubSection)` prefixes if the recipe has distinct component groups
 
 Show the recipe to the user and ask for confirmation or adjustments before writing.
 
