@@ -46,6 +46,8 @@ Ingredients are displayed in a sticky sidebar. The markdown body (after frontmat
 
 ## Meal plan workflow
 
+The food week runs **Saturday to Friday** — shopping happens on Saturday, so the plan starts there.
+
 When the user asks for a meal plan:
 1. Read `recipes/index.json` and relevant recipe files to see available ingredients
 2. Write `planner/YYYY-WXX.md` — use H2 per day, link recipes with `#/recipe/slug`
