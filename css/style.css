@@ -240,10 +240,6 @@ main {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-
-  .ingredients-box {
-    position: static;
-  }
 }
 
 .ingredients-box {
@@ -251,8 +247,13 @@ main {
   border: 1.5px solid var(--border);
   border-radius: 12px;
   padding: 1.5rem;
-  position: sticky;
-  top: 5rem;
+}
+
+@media (min-width: 641px) {
+  .ingredients-box {
+    position: sticky;
+    top: 5rem;
+  }
 }
 
 .ingredients-box h2 {
