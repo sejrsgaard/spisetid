@@ -240,6 +240,10 @@ main {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+
+  .ingredients-box {
+    position: static;
+  }
 }
 
 .ingredients-box {
