@@ -99,7 +99,21 @@ async function fetchRecipe(slug) {
 let currentPage = '';
 
 window.addEventListener('hashchange', route);
-window.addEventListener('DOMContentLoaded', route);
+window.addEventListener('DOMContentLoaded', () => {
+  const toggle = document.querySelector('.nav-toggle');
+  const navLinks = document.querySelector('.nav-links');
+  toggle.addEventListener('click', () => {
+    const open = navLinks.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+  navLinks.addEventListener('click', e => {
+    if (e.target.tagName === 'A') {
+      navLinks.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+  route();
+});
 
 function updateNavActive() {
   document.querySelectorAll('nav a[data-page]').forEach(a => {

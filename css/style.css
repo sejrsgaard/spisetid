@@ -31,6 +31,7 @@ nav {
   padding: 0 2rem;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 0;
   position: sticky;
   top: 0;
@@ -41,10 +42,26 @@ nav {
   font-family: 'Playfair Display', Georgia, serif;
   color: var(--nav-text);
   font-size: 1.35rem;
-  margin-right: 2rem;
+  margin-right: auto;
   text-decoration: none;
   padding: 0.9rem 0;
   letter-spacing: 0.02em;
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--nav-text);
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 0.9rem 0;
+  line-height: 1;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
 }
 
 nav a {
@@ -58,6 +75,29 @@ nav a {
 nav a:hover,
 nav a.active {
   color: var(--nav-text);
+}
+
+@media (max-width: 640px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    padding-bottom: 0.5rem;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 0.75rem 0;
+    border-top: 1px solid rgba(250, 246, 241, 0.1);
+  }
 }
 
 /* Main */

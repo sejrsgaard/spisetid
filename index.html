@@ -12,10 +12,13 @@
 <body>
   <nav>
     <a href="#/recipes" class="nav-brand">Spisetid</a>
-    <a href="#/recipes" data-page="recipes">Opskrifter</a>
-    <a href="#/planner" data-page="planner">Madplan</a>
-    <a href="#/shopping" data-page="shopping">Indkøbsliste</a>
-    <a href="#/suggestions" data-page="suggestions">Forslag</a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
+    <div class="nav-links">
+      <a href="#/recipes" data-page="recipes">Opskrifter</a>
+      <a href="#/planner" data-page="planner">Madplan</a>
+      <a href="#/shopping" data-page="shopping">Indkøbsliste</a>
+      <a href="#/suggestions" data-page="suggestions">Forslag</a>
+    </div>
   </nav>
   <main id="app"></main>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
