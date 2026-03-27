@@ -1,0 +1,25 @@
+- Koteletter, 4 stk (ca. 180 g stykket)
+- Champignoner, 300 g
+- Piskefløde, 2 dl
+- Kartofler, ca. 1,5 kg
+- Søde kartofler, 4 stk
+- Kikærter, 1 dåse
+- Tahin
+- Squash, 3 stk
+- Rød peberfrugt
+- Gul peberfrugt
+- Rødløg
+- Løg, 5 stk
+- Bulgur, 2 dl
+- Feta, 150 g
+- Persille
+- Mynte
+- Granatæble
+- Hvide bønner, 2 dåser
+- Græsk yoghurt, 2 dl
+- Grøn pesto
+- Rucola
+- Pinjekerner, 50 g
+- Oksefond, 3 dl
+- Grøntsagsbouillon
+- Wraps/tortillas
