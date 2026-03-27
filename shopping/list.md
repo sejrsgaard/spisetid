@@ -1,6 +1,6 @@
-- Koteletter, 4 stk (ca. 180 g stykket)
-- Champignoner, 300 g
-- Piskefløde, 2 dl
+- Rasp
+- Syltet rødbede
+- Remoulade
 - Kartofler, ca. 1,5 kg
 - Søde kartofler, 4 stk
 - Kikærter, 1 dåse
