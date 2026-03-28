@@ -1,5 +1,6 @@
 ---
 title: Bagt sød kartoffel med sprøde butterbeans og cremefraichedressing
+favorite: true
 tags: [vegetar]
 servings: 4 personer
 time: 55 minutter
