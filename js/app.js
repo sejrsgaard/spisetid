@@ -336,14 +336,16 @@ function plannerMarkdownToHtml(content) {
   while (i < children.length) {
     const el = children[i];
     if (el.tagName === 'H2') {
-      const mealEl = children[i + 1];
+      let j = i + 1;
+      while (j < children.length && children[j].tagName !== 'H2') j++;
+      const mealHtml = children.slice(i + 1, j).map(e => e.innerHTML).join('<br>');
       rows.push(`
         <div class="planner-day">
           <div class="planner-day-name">${el.textContent}</div>
-          <div class="planner-day-meal">${mealEl ? mealEl.innerHTML : ''}</div>
+          <div class="planner-day-meal">${mealHtml}</div>
         </div>
       `);
-      i += 2;
+      i = j;
     } else {
       i++;
     }
