@@ -202,11 +202,26 @@ main {
   transform: translateY(-2px);
 }
 
+.recipe-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
 .recipe-card h2 {
   font-family: 'Playfair Display', Georgia, serif;
   font-size: 1.15rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0;
   color: var(--text);
+}
+
+.recipe-card-favorite {
+  color: var(--accent);
+  font-size: 1.05rem;
+  flex-shrink: 0;
+  line-height: 1.4;
 }
 
 .recipe-card-meta {
@@ -230,6 +245,10 @@ main {
   padding: 0.15rem 0.55rem;
   font-size: 0.78rem;
   color: var(--text-muted);
+}
+
+.recipe-detail-favorite {
+  color: var(--accent);
 }
 
 /* Recipe detail */

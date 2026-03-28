@@ -159,13 +159,15 @@ async function renderRecipesPage(app) {
   const recipes = await loadRecipes();
   let activeTag = null;
   let searchQuery = '';
+  let showFavoritesOnly = false;
   const allTags = [...new Set(recipes.flatMap(r => r.tags || []))].sort();
 
   function filtered() {
     return recipes.filter(r => {
       const matchesSearch = !searchQuery || (r.title || '').toLowerCase().includes(searchQuery.toLowerCase());
       const matchesTag = !activeTag || (r.tags || []).includes(activeTag);
-      return matchesSearch && matchesTag;
+      const matchesFavorite = !showFavoritesOnly || r.favorite === 'true';
+      return matchesSearch && matchesTag && matchesFavorite;
     });
   }
 
@@ -177,7 +179,10 @@ async function renderRecipesPage(app) {
     }
     grid.innerHTML = list.map(r => `
       <a href="#/recipe/${r.slug}" class="recipe-card">
-        <h2>${r.title || r.slug}</h2>
+        <div class="recipe-card-header">
+          <h2>${r.title || r.slug}</h2>
+          ${r.favorite === 'true' ? '<span class="recipe-card-favorite">★</span>' : ''}
+        </div>
         <div class="recipe-card-meta">
           ${r.time ? `<span>&#9201; ${r.time}</span>` : ''}
           ${r.servings ? `<span>&#128101; ${/^\d+$/.test(String(r.servings).trim()) ? r.servings + ' pers.' : r.servings}</span>` : ''}
@@ -194,6 +199,7 @@ async function renderRecipesPage(app) {
     <div class="search-bar">
       <input type="text" id="search" placeholder="S&oslash;g efter opskrifter&hellip;" autocomplete="off">
       <div class="tag-filters">
+        <span class="tag-chip" id="favorite-chip">&#9733; Favoritter</span>
         ${allTags.map(t => `<span class="tag-chip" data-tag="${t}">${t}</span>`).join('')}
       </div>
     </div>
@@ -208,10 +214,16 @@ async function renderRecipesPage(app) {
     renderGrid();
   });
 
-  app.querySelectorAll('.tag-chip').forEach(chip => {
+  app.querySelector('#favorite-chip').addEventListener('click', function() {
+    showFavoritesOnly = !showFavoritesOnly;
+    this.classList.toggle('active', showFavoritesOnly);
+    renderGrid();
+  });
+
+  app.querySelectorAll('.tag-chip[data-tag]').forEach(chip => {
     chip.addEventListener('click', () => {
       activeTag = activeTag === chip.dataset.tag ? null : chip.dataset.tag;
-      app.querySelectorAll('.tag-chip').forEach(c =>
+      app.querySelectorAll('.tag-chip[data-tag]').forEach(c =>
         c.classList.toggle('active', c.dataset.tag === activeTag)
       );
       renderGrid();
@@ -264,6 +276,7 @@ async function renderRecipePage(app, slug) {
       <a href="#/recipes" class="back-link">&larr; Alle opskrifter</a>
       <h1>${recipe.title || slug}</h1>
       <div class="recipe-detail-meta">
+        ${recipe.favorite === 'true' ? `<span class="recipe-detail-favorite">&#9733; Favorit</span>` : ''}
         ${recipe.time ? `<span>&#9201; ${recipe.time}</span>` : ''}
         ${recipe.servings ? `<span>&#128101; ${/^\d+$/.test(String(recipe.servings).trim()) ? recipe.servings + ' personer' : recipe.servings}</span>` : ''}
         ${(recipe.tags || []).map(t => `<span>${t}</span>`).join('')}
