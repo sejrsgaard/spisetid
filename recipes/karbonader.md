@@ -20,4 +20,4 @@ ingredients:
 2. **Form karbonader:** Del farsen i 8 lige store klumper og form dem til flade, ovale karbonader med hænderne.
 3. **Panér:** Vend hver karbonade først i mel, så i sammenpisket æg og til sidst i rasp.
 4. **Steg:** Steg karbonader i smør og olie på en pande ved middelvarme i 4-5 minutter per side, til de er gyldne og gennemstegte.
-5. **Server** med kartofler, syltet rødbede og remoulade.
+5. **Server** med kartofler og syltet rødbede.
