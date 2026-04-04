@@ -1,0 +1,20 @@
+- 300 g champignoner
+- 2 dl piskefløde
+- 10 løg
+- 300 g gulerødder
+- Kartofler
+- Tacoskaller
+- Salat
+- 4 tomater
+- 1 agurk
+- 75 g revet ost
+- Frisk ingefær
+- 2 peberfrugter
+- 200 g broccoli
+- 4 forårsløg
+- Østerssauce
+- 400 g æggenudler
+- Sesamfrø
+- 3 dl oksefond
+- Rugbrød
+- Pålæg til smørrebrød
