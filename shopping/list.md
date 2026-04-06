@@ -1,13 +1,12 @@
 - 300 g champignoner
-- 2 dl piskefløde
-- 10 løg
+- 4 dl piskefløde
+- 8 løg
 - 300 g gulerødder
 - Kartofler
-- Tacoskaller
-- Salat
-- 4 tomater
-- 1 agurk
-- 75 g revet ost
+- 2 dåser kikærter
+- 150 g frisk spinat
+- 60 g parmesan
+- Godt brød
 - Frisk ingefær
 - 2 peberfrugter
 - 200 g broccoli
