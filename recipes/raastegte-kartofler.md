@@ -3,6 +3,7 @@ title: Råstegte kartofler
 tags: [tilbehør, kartofler]
 servings: 4
 time: 40 min
+source: https://www.valdemarsro.dk/raastegte-kartofler/
 ingredients:
   - 1 kg kartofler
   - 1/2 dl olivenolie

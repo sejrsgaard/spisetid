@@ -3,6 +3,7 @@ title: Salat Niçoise
 tags: [salat, fisk]
 servings: 4
 time: 30 min
+source: https://gastromand.dk/salade-nicoise-7-etape-af-gastromands-tour-de-france/
 ingredients:
   - 1 romainesalat (ikke isbergsalat)
   - 300 g tomater

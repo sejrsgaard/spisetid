@@ -3,6 +3,7 @@ title: Frikadeller
 tags: [kød]
 servings: 12 styks
 time: 50 min
+source: https://madensverden.dk/frikadeller/
 ingredients:
   - 500 g hakket svin og kalv (ca. 10% fedt)
   - 10 g salt

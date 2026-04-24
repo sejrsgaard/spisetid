@@ -3,6 +3,7 @@ title: Kold Kartoffelsalat
 tags: [salat, tilbehør]
 servings: 4
 time: 50 min
+source: https://gastromad.dk/kartoffelsalat/
 ingredients:
   - 800 g små nye kartofler
   - (Dressing) 1/2 dl mayonnaise

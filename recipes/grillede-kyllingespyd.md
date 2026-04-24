@@ -3,6 +3,7 @@ title: Grillede kyllingespyd
 tags: [kylling, grill]
 servings: 4
 time: 20 min
+source: https://madensverden.dk/grillede-kyllingespyd/
 ingredients:
   - 500 g kyllingebrystfileter
   - 1 lille squash
