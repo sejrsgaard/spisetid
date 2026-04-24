@@ -2,6 +2,7 @@
 title: Asiatisk salatbowl med marineret mørbrad
 tags: [salat]
 time: 2 timer
+source: https://juliebruun.com/asiatisk-salatbowl-med-marineret-moerbrad/
 ingredients:
   - 1 svinemørbrad
   - 1/2 dl olie
