@@ -1,31 +1,24 @@
 ---
 title: Kold Kartoffelsalat
-tags: [salat]
-time: 30 minutter
+tags: [salat, tilbehør]
+servings: 4
+time: 50 min
 ingredients:
-  - (Dressing) 200 g cremefraiche 18
-  - (Dressing) 4 spsk. mayonnaise
-  - (Dressing) 1 spsk. citronsaft
-  - (Dressing) 1 tsk. dijonsennep
-  - (Dressing) 1 lille tsk. sukker
-  - (Dressing) Smag til med salt og peber
+  - 800 g små nye kartofler
+  - (Dressing) 1/2 dl mayonnaise
+  - (Dressing) 1 dl creme fraiche (5% eller A-38 15%)
+  - (Dressing) 2 spsk dijonsennep
+  - (Dressing) salt og peber
+  - 1-2 rødløg
+  - 5-8 cornichoner
+  - 4 forårsløg
+  - 6 radiser
+  - purløg
 ---
+
 ## Fremgangsmåde
 
-1. **Forbered kartoflerne**:  
-   Skyl kartoflerne grundigt. Hvis de er økologiske, behøver du ikke skrælle dem. Skær dem i mindre tern og kog dem i saltet vand i 15-20 minutter, indtil de er møre. Lad dem køle helt af.
-
-2. **Lav dressingen**:  
-   Mens kartoflerne koger, blandes cremefraiche, mayonnaise, citronsaft, dijonsennep og sukker i en skål. Smag til med salt og peber.
-
-3. **Forbered grøntsagerne**:  
-   Skyl de grønne asparges og skær dem i mindre stykker. Hak dilden groft.
-
-4. **Optø ærter og edamamebønner**:  
-   Læg edamamebønnerne og ærterne i en skål og hæld kogende vand over dem for at tø dem op. Hæld vandet fra efter et par minutter.
-
-5. **Bland salaten**:  
-   Når kartoflerne er kolde, blandes de med dressingen, de forberedte grøntsager, asparges, ærter, edamamebønner og dild.
-
-6. **Servering**:  
-   Lad salaten hvile i ca. 30 minutter i køleskabet inden servering, så smagene kan trække ind.
+1. **Kartofler:** Vask kartoflerne og kog dem i saltet vand i 10 minutter, sluk derefter og lad dem trække færdige. Lad dem køle af og skær dem i skiver.
+2. **Dressing:** Rør mayonnaise, creme fraiche og dijonsennep sammen. Smag til med salt og peber.
+3. **Grønt:** Skær rødløg i små tern, hak cornichoner fint, snit forårsløg tyndt, skær radiser i skiver og hak purløg fint.
+4. **Bland:** Vend kartofler og grønt sammen med dressingen. Kan laves dagen før og holder 3-4 dage på køl.

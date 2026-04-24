@@ -1,19 +1,46 @@
-- 300 g champignoner
-- 4 dl piskefløde
-- 8 løg
-- 300 g gulerødder
-- Kartofler
-- 2 dåser kikærter
-- 150 g frisk spinat
-- 60 g parmesan
-- Godt brød
-- Frisk ingefær
-- 2 peberfrugter
-- 200 g broccoli
-- 4 forårsløg
-- Østerssauce
-- 400 g æggenudler
-- Sesamfrø
-- 3 dl oksefond
-- Rugbrød
-- Pålæg til smørrebrød
+- 500 g kyllingebrystfileter
+- fiskefileter
+- 500 g hakket svin og kalv
+- 2-4 skiver skinke
+- 2 dåser tun i olie
+- 8 æg
+- 2 dl creme fraiche
+- 2 dl mælk
+- revet cheddar
+- revet mozzarella
+- parmesan
+- 1,6 kg små nye kartofler (kartoffelsalat)
+- 300 g små kartofler (Niçoise)
+- 1 kg kartofler (råstegte)
+- 1 lille squash
+- 5-6 rødløg
+- 1 rød peberfrugt
+- 1 løg
+- 1 romainesalat
+- 300 g tomater
+- 300 g grønne bønner
+- 12 forårsløg
+- 1/2 agurk
+- 12 radiser
+- rucola
+- 8 semi-tørrede tomater
+- 150 g oliven
+- frisk basilikum
+- bredbladet persille
+- purløg
+- cornichoner
+- rugbrød
+- 4 skiver godt brød
+- mayonnaise
+- dijonsennep
+- grovkornet dijonsennep
+- tomatpuré
+- æblecidereddike
+- hvedemel
+- hvidløgspulver
+- paprika
+- merian eller oregano
+- brun farin
+- tørret timian
+- smør
+- olivenolie

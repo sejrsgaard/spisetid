@@ -1,23 +1,24 @@
 ---
 title: Frikadeller
 tags: [kød]
-servings: 14 styks
-time: 20 minutter
+servings: 12 styks
+time: 50 min
 ingredients:
-  - 500 g hakket svin og kalv
-  - 2 æg
-  - 2 tsk. salt
-  - 1/2 tsk. peber
-  - 1 dl mælk (jeg bruger havredrik)
-  - 3 store spsk. havregryn eller mel
-  - 1 løg (lille-mellem størrelse), finthakket
-  - 1/2 dl olie + 1 spsk. smør til stegning
+  - 500 g hakket svin og kalv (ca. 10% fedt)
+  - 10 g salt
+  - 1 æg
+  - 1 løg, finthakket
+  - 3 spsk hvedemel
+  - friskkværnet peber
+  - 2 dl mælk
+  - smør og olie til stegning
 ---
+
 ## Fremgangsmåde
-1. Rør alle ingredienserne sammen i en skål, indtil de er godt blandet.
-2. Lad farsen hvile i cirka 10 minutter.
-3. Form frikadellerne med hænderne og steg dem på en pande med olie og smør ved middelvarme i cirka 5-7 minutter på hver side, indtil de er gyldne og gennemstegte.
 
----
-
-**Velbekomme!** Nyd dine frikadeller med kartofler, sovs og grøntsager eller i en lækker sandwich.
+1. **Salt:** Rør kødet og saltet grundigt sammen, inden andre ingredienser tilsættes — det binder væden og giver saftigere frikadeller.
+2. **Fars:** Tilsæt æg og løg og rør videre. Tilsæt mel og friskkværnet peber og bland godt.
+3. **Mælk:** Tilsæt mælken lidt ad gangen under omrøring, til farsen er jævn men ikke flydende.
+4. **Hvil:** Stil farsen i køleskabet i 30 minutter.
+5. **Stegning:** Varm smør og olie på en pande ved middelhøj varme. Form frikadellerne med en ske dyppet i fedt og læg dem på panden.
+6. **Færdig:** Steg ca. 5-6 minutter på hver side, til de har en mørk, sprød skorpe. Lad dem dryppe af på køkkenrulle inden servering.
