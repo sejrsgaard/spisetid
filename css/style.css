@@ -287,6 +287,16 @@ main {
   border-bottom: 1.5px solid var(--border);
 }
 
+.recipe-source {
+  color: var(--accent);
+  text-decoration: none;
+  margin-left: auto;
+}
+
+.recipe-source:hover {
+  text-decoration: underline;
+}
+
 .recipe-layout {
   display: grid;
   grid-template-columns: 260px 1fr;

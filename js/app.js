@@ -280,6 +280,7 @@ async function renderRecipePage(app, slug) {
         ${recipe.time ? `<span>&#9201; ${recipe.time}</span>` : ''}
         ${recipe.servings ? `<span>&#128101; ${/^\d+$/.test(String(recipe.servings).trim()) ? recipe.servings + ' personer' : recipe.servings}</span>` : ''}
         ${(recipe.tags || []).map(t => `<span>${t}</span>`).join('')}
+        ${recipe.source ? `<a href="${recipe.source}" target="_blank" rel="noopener noreferrer" class="recipe-source">Originalopskrift &#8599;</a>` : ''}
       </div>
       <div class="recipe-layout">
         <div class="ingredients-box">
