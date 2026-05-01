@@ -1,46 +1,23 @@
-- 500 g kyllingebrystfileter
-- fiskefileter
-- 500 g hakket svin og kalv
-- 2-4 skiver skinke
-- 2 dåser tun i olie
-- 8 æg
-- 2 dl creme fraiche
-- 2 dl mælk
-- revet cheddar
-- revet mozzarella
-- parmesan
-- 1,6 kg små nye kartofler (kartoffelsalat)
-- 300 g små kartofler (Niçoise)
-- 1 kg kartofler (råstegte)
-- 1 lille squash
-- 5-6 rødløg
-- 1 rød peberfrugt
-- 1 løg
-- 1 romainesalat
-- 300 g tomater
-- 300 g grønne bønner
-- 12 forårsløg
-- 1/2 agurk
-- 12 radiser
-- rucola
-- 8 semi-tørrede tomater
-- 150 g oliven
-- frisk basilikum
-- bredbladet persille
-- purløg
-- cornichoner
-- rugbrød
-- 4 skiver godt brød
-- mayonnaise
-- dijonsennep
-- grovkornet dijonsennep
-- tomatpuré
-- æblecidereddike
-- hvedemel
-- hvidløgspulver
+- 3 æg
+- 20 g smør
+- 1,25 dl mælk
+- sukker
+- 135 g hvedemel
+- bagepulver
+- vaniljesukker
+- 400 g hakket oksekød
+- 1 dåse røde kidneybønner
+- 4 løg
+- 8 fed hvidløg
+- spidskommen
 - paprika
-- merian eller oregano
-- brun farin
+- 500 g tomater
+- 1 peberfrugt
+- balsamicoeddike
+- tørret basilikum
+- 12 tacoskaller
+- 8 kyllingeoverlår
+- 600 g rodfrugter (gulerødder, pastinakker, persillerødder)
+- honning
 - tørret timian
-- smør
 - olivenolie
