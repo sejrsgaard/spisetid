@@ -1,23 +1,48 @@
-- 3 æg
-- 20 g smør
-- 1,25 dl mælk
-- sukker
-- 135 g hvedemel
-- bagepulver
+- 8L poser
+- Hvidt vaskemiddel
+- Lighter (lang)
+- Pakketape
+- Melon
+- Blevat
+- Bleer
+- 500 g hakket svin og kalv (10% fedt)
+- 600 g hakket oksekød (10% fedt)
+- 4 rødspættefileter
+- 100 g skinke i tern
+- 250 g ricotta
+- 200 g hytteost
+- 250 g flødeost
+- 50 g parmesan
+- 50 g mozzarella
+- 12 æg
+- 2 dl mælk
+- 1 dl creme fraiche
+- 1/2 dl mayonnaise
+- ca. 500 g smør (+ til stegning)
+- 800 g små nye kartofler
+- 300 g gulerødder
+- 300 g broccoli
+- 2 citroner
+- 1-2 rødløg
+- 5 løg
+- 2 skalotteløg
+- 3 fed hvidløg
+- 4 forårsløg
+- 6 radiser
+- purløg
+- pomfritter (frosne)
+- 500 g pasta (rigatoni)
+- ca. 425 g hvedemel
+- 80 g grahamsmel
+- rugmel
+- 1 dl sesamfrø
+- 200 g brun farin
+- 200 g flormelis
 - vaniljesukker
-- 400 g hakket oksekød
-- 1 dåse røde kidneybønner
-- 4 løg
-- 8 fed hvidløg
-- spidskommen
-- paprika
-- 500 g tomater
-- 1 peberfrugt
-- balsamicoeddike
-- tørret basilikum
-- 12 tacoskaller
-- 8 kyllingeoverlår
-- 600 g rodfrugter (gulerødder, pastinakker, persillerødder)
-- honning
-- tørret timian
+- bagepulver
+- stødt kanel
+- 2 spsk dijonsennep
+- 5-8 cornichoner
+- majsstivelse
+- 3 dl oksefond
 - olivenolie
