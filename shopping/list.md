@@ -5,24 +5,55 @@
 - Melon
 - Blevat
 - Bleer
-- 500 g hakket svin og kalv (10% fedt)
-- 600 g hakket oksekød (10% fedt)
-- 4 rødspættefileter
-- 100 g skinke i tern
-- 250 g ricotta
-- 200 g hytteost
-- 250 g flødeost
-- 50 g parmesan
-- 50 g mozzarella
-- 12 æg
-- 2 dl mælk
-- 800 g små nye kartofler
-- 300 g gulerødder
-- 300 g broccoli
-- 2 citroner
-- 2 skalotteløg
-- 4 forårsløg
-- 6 radiser
-- pomfritter (frosne)
-- 500 g pasta (rigatoni)
-- 5-8 cornichoner
+- 20 skiver flæsk
+- 1 svinemørbrad (ca. 500 g)
+- 400 g hakket svinekød
+- 150 g serranoskinke
+- 1 kg kartofler
+- 1 aubergine
+- 1 rød peberfrugt (kikærte msabbaha)
+- 1 rød peberfrugt (svinemørbrad)
+- 1 gul peberfrugt
+- 1 squash
+- 1 bakke cherrytomater
+- 1 tomat
+- ½ spidskål
+- 2 porrer
+- 2 løg
+- 3 rødløg
+- 1 skalotteløg
+- 1 hvidløg
+- 1 bundt forårsløg
+- 1 majskolbe
+- 3 citroner
+- frisk basilikum
+- frisk mynte
+- bredbladet persille
+- frisk timian
+- 1 dåse kikærter
+- 200 g nudler
+- 300 g pasta
+- naanbrød
+- rugbrød
+- 1 stykke brød (til carbonara)
+- græsk yoghurt
+- mælk
+- creme fraiche 6%
+- 2 æg
+- smør
+- plantesmør
+- 1 dl revet parmesan
+- 100 g revet mozzarella
+- tahin
+- soltørrede tomater
+- soja
+- sød chilisauce
+- 1 håndfuld cashewnødder
+- sesamfrø
+- fuldkornshvedemel
+- hvedemel
+- spidskommen
+- paprika
+- oregano
+- muskatnød
+- træspyd
