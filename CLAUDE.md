@@ -50,6 +50,8 @@ Ingredients are displayed in a sticky sidebar. The markdown body (after frontmat
 
 The food week runs **Saturday to Friday** — shopping happens on Saturday, so the plan starts there.
 
+Fixed days: **søndag** is always a simmered dish (preferably double or triple portion), **torsdag** is always something with frozen fries, **fredag** is always rugbrød or leftovers. Details in the `meal-plan` skill.
+
 When the user asks for a meal plan:
 1. Read `recipes/index.json` and relevant recipe files to see available ingredients
 2. Write `planner/YYYY-MM-DD.md` (Saturday of that week) — use H2 per day, link recipes with `#/recipe/slug`

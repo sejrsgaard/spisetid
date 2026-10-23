@@ -12,6 +12,14 @@ If `$ARGUMENTS` is provided, use that ISO week (e.g. `2026-W14`). Otherwise ask 
 
 Remember: the food week runs **Saturday to Friday** — shopping happens on Saturday.
 
+## Faste dage
+
+These days are fixed — only plan freely for Saturday, Monday, Tuesday and Wednesday:
+
+- **Søndag** — always a simmered dish (gryderet, braiseret, langtidsstegt, kødsovs, moussaka eller lignende), preferably cooked as a double or triple portion; scale its shopping amounts accordingly and note the portion size in the plan
+- **Torsdag** — always something served with frozen fries; put the fries under `### Frost` on the shopping list
+- **Fredag** — always rugbrød or leftovers (no recipe, no shopping)
+
 ## Workflow
 
 **Step 1 — Gather ingredients**

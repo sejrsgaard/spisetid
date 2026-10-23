@@ -1,22 +1,37 @@
 ---
-title: Chili Con Carne
-tags: [kød]
-time: 50 minutter
+title: Chili con carne
+tags: [kød, mexicansk]
+servings: 4
+time: 45 min
+source: https://gourministeriet.dk/chili-con-carne/
 ingredients:
-  - (Til servering) 125 g nachos
-  - (Til servering) 3 dl ris
-  - (Til servering) 2 dl cremefraiche 18 %
-  - (Til servering) 150 g cheddar ost
-  - (Til servering) 1 håndfuld frisk koriander
-  - (Til servering) 1 rød chili, finthakket
+  - (Chili) 500 g hakket oksekød
+  - (Chili) 1 rød peberfrugt, i små tern
+  - (Chili) 1 stort løg, finthakket
+  - (Chili) 3 fed hvidløg, revet eller presset
+  - (Chili) ½ rød chili uden kerner, finthakket
+  - (Chili) 10 skiver syltede jalapeños, finthakket (juster efter styrke)
+  - (Chili) 1½ tsk stødt spidskommen
+  - (Chili) 1 tsk stødt koriander
+  - (Chili) ½ tsk stødt kanel
+  - (Chili) ¼ tsk oregano
+  - (Chili) 2 spsk tomatkoncentrat
+  - (Chili) 1 dåse hakkede tomater
+  - (Chili) 2½ dl oksebouillon
+  - (Chili) 10 g mørk chokolade 70 %
+  - (Chili) 2 dåser kidneybønner
+  - (Chili) Olivenolie
+  - (Chili) Salt og peber
+  - (Til servering) Ris eller fladbrød
+  - (Til servering) Tortillachips
+  - (Til servering) Creme fraiche
+  - (Til servering) Evt. 1 frisk jalapeño, finthakket uden kerner
 ---
 ## Fremgangsmåde
 
-1. Varm olien til lav-middel varme i en sauterpande eller en gryde. Tilsæt spidskommen, kanel, koriander, chiliflager og hvidløg. Rør rundt i et par minutter.
-2. Skru lidt ned for varmen og tilsæt de hakkede løg. Rør rundt, til løgene er bløde.
-3. Tilsæt oksekød og brun det ved høj varme.
-4. Tilsæt hakkede tomater, soltørrede tomater og oksebouillon. Læg låg på og lad det simre i en halv times tid.
-5. Smag saucen til. Hvis den skal have mere power, så tilføj lidt mere chili. Hvis saucen er blevet for stærk, så vent med at gøre noget. Bønnerne og chokoladen runder den af snart.
-6. Tilsæt bønner og varm retten godt igennem i 5 minutter.
-7. Tag gryden af varmen og rør først halvdelen af chokoladen i og smag til med resten af chokoladen. Smag til igen med salt og peber.
-8. Server med nachos, ris, godt brød, cremefraiche og gratiner evt. med cheddarost. Pynt med frisk koriander og finthakket rød chili.
+1. **Løg:** Varm lidt olie i en gryde og svits løg, hvidløg og chili i et par minutter.
+2. **Kød:** Tilsæt kødet, brun det godt af og krydr med salt og peber.
+3. **Krydderier:** Tilsæt peberfrugt, spidskommen, koriander, kanel og oregano, og lad det varme med et par minutter. Rør tomatkoncentratet i og lad det stege med i 1 minut.
+4. **Simring:** Hæld hakkede tomater, bouillon, jalapeños og chokolade i, og lad retten simre uden låg i 20–30 minutter. Har du tid, så lad den simre et par timer under låg, og tilsæt mere vand eller bouillon undervejs efter behov.
+5. **Bønner:** Skyl kidneybønnerne og varm dem hurtigt igennem i retten lige før servering. Tilsæt evt. den friske jalapeño for farvens skyld.
+6. **Servering:** Smag til med salt og peber, og server med ris eller fladbrød, tortillachips og creme fraiche på toppen.
