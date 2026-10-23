@@ -3,17 +3,19 @@ title: Råstegte kartofler
 tags: [tilbehør]
 servings: 4
 time: 40 min
-source: https://www.valdemarsro.dk/raastegte-kartofler/
+source: https://madensverden.dk/raastegte-kartofler-skal-steges-i-20-minutter-paa-en-pande/
 ingredients:
-  - 1 kg kartofler
-  - 1/2 dl olivenolie
-  - 1 tsk tørret timian
-  - 2 spsk friskrevet parmesan eller Vesterhavsost
+  - 800 g kartofler, gerne små
+  - 4 spsk olivenolie
+  - 100 g smør
   - salt og friskkværnet peber
 ---
 
 ## Fremgangsmåde
 
-1. **Forbered:** Skær kartoflerne i store tern og vend dem grundigt i olie, salt, peber og timian.
-2. **Bag:** Bred dem ud på en bageplade med bagepapir og bag ved 180°C varmluft i 30-40 minutter. Vend dem et par gange undervejs.
-3. **Ost:** Drys parmesan over 3-5 minutter før de er færdige og afslut bagningen.
+1. **Kartofler:** Vask kartoflerne grundigt og skær dem i mindre stykker. Små kartofler skal blot deles i kvarte, og de behøver ikke skrælles.
+2. **Udblødning:** Læg kartoflerne i en skål med koldt vand i 15 minutter for at fjerne stivelsen.
+3. **Tørring:** Rør godt rundt, hæld vandet fra og lad kartoflerne tørre på et rent viskestykke. De skal være helt tørre, før de kommer på panden.
+4. **Brunering:** Smelt olie og smør på en stor pande, eller fordel på to pander, så kartoflerne ligger i ét lag. Brun kartoflerne ved god varme.
+5. **Stegning:** Skru ned til middel varme og steg i cirka 20 minutter, til de er gyldne og møre. Vend dem forsigtigt et par gange undervejs.
+6. **Servering:** Krydr med salt og friskkværnet peber og server straks.
