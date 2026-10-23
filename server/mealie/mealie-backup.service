@@ -1,0 +1,7 @@
+[Unit]
+Description=Back up Mealie data to the Hetzner volume
+After=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/mealie-backup

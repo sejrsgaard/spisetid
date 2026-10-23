@@ -1,0 +1,40 @@
+services:
+  mealie:
+    image: ghcr.io/mealie-recipes/mealie:v3.29.0
+    container_name: mealie
+    restart: always
+    # Localhost only: Docker-published ports bypass ufw, so a reverse proxy fronts this
+    ports:
+      - "127.0.0.1:9925:9000"
+    deploy:
+      resources:
+        limits:
+          memory: 1000M
+    volumes:
+      - mealie-data:/app/data/
+    environment:
+      ALLOW_SIGNUP: "false"
+      PUID: 1000
+      PGID: 1000
+      TZ: Europe/Copenhagen
+      BASE_URL: https://spisetid.dalmosen.dk
+
+  caddy:
+    image: caddy:2.10.2
+    container_name: caddy
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      - mealie
+
+volumes:
+  mealie-data:
+  caddy-data:
+  caddy-config:

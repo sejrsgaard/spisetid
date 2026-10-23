@@ -1,0 +1,8 @@
+spisetid.dalmosen.dk {
+	encode zstd gzip
+	reverse_proxy mealie:9000
+}
+
+dalmosen.dk {
+	redir https://spisetid.dalmosen.dk{uri}
+}

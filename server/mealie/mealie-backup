@@ -1,0 +1,19 @@
+#!/bin/sh
+# Daily Mealie backup to the attached Hetzner volume; keeps 7 days.
+set -eu
+DATA=$(docker volume inspect -f "{{.Mountpoint}}" mealie_mealie-data)
+DEST=/mnt/HC_Volume_107253356/mealie-backups
+STAMP=$(date +%F)
+WORK=$(mktemp -d)
+trap "rm -rf $WORK" EXIT
+
+mountpoint -q /mnt/HC_Volume_107253356 || { echo "backup volume not mounted" >&2; exit 1; }
+mkdir -p "$DEST"
+sqlite3 "$DATA/mealie.db" ".backup $WORK/mealie.db"
+test "$(sqlite3 "$WORK/mealie.db" "PRAGMA integrity_check;")" = ok
+# The snapshot is appended separately: --exclude would otherwise drop it along with the live db
+tar -cf "$WORK/mealie.tar" -C "$DATA" --exclude=./mealie.db --exclude=./mealie.log .
+tar -rf "$WORK/mealie.tar" -C "$WORK" ./mealie.db
+gzip -c "$WORK/mealie.tar" > "$DEST/mealie-$STAMP.tar.gz"
+find "$DEST" -name "mealie-*.tar.gz" -mtime +6 -delete
+echo "backup ok: $DEST/mealie-$STAMP.tar.gz $(du -h "$DEST/mealie-$STAMP.tar.gz" | cut -f1)"
