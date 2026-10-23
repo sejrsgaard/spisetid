@@ -1,14 +1,14 @@
 ---
 name: meal-plan
 description: Creates a weekly meal plan with shopping list for spisetid
-argument-hint: "[YYYY-WXX] (optional)"
+argument-hint: "[YYYY-MM-DD] (optional, the Saturday the week starts)"
 ---
 
 Create a weekly meal plan for the spisetid project.
 
 ## Week
 
-If `$ARGUMENTS` is provided, use that ISO week (e.g. `2026-W14`). Otherwise ask the user which week.
+If `$ARGUMENTS` is provided, use that date as the week start (e.g. `2026-10-24`); if it is not a Saturday, use the Saturday on or before it. Otherwise ask the user which week.
 
 Remember: the food week runs **Saturday to Friday** — shopping happens on Saturday.
 
@@ -39,7 +39,7 @@ Once the user approves the plan:
 
 1. For each new recipe, create `recipes/<slug>.md` following the recipe formatting rules in `CLAUDE.md`. Then add the slug to `recipes/index.json` in alphabetical order.
 
-2. Write `planner/YYYY-WXX.md`:
+2. Write `planner/YYYY-MM-DD.md`, named after the Saturday the week starts (the app looks up plans by that date):
    - H2 heading per day in Danish (Lørdag, Søndag, Mandag, …, Fredag)
    - Link existing/new recipes: `[Title](#/recipe/slug)`
    - Plain text for leftovers or days without a recipe
