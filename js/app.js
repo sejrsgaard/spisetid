@@ -126,6 +126,19 @@ async function route() {
   const app = document.getElementById('app');
   app.innerHTML = '<div class="loading">Indlæser\u2026</div>';
 
+  try {
+    await renderRoute(app, hash);
+  } catch {
+    app.innerHTML = `
+      <div class="empty-state">
+        <p>Noget gik galt under indl&aelig;sningen.</p>
+        <small>Pr&oslash;v at genindl&aelig;se siden.</small>
+      </div>
+    `;
+  }
+}
+
+async function renderRoute(app, hash) {
   if (hash === '#/recipes' || hash === '' || hash === '#/') {
     currentPage = 'recipes';
     updateNavActive();
@@ -150,6 +163,15 @@ async function route() {
     currentPage = 'suggestions';
     updateNavActive();
     await renderSuggestionsPage(app);
+  } else {
+    currentPage = '';
+    updateNavActive();
+    app.innerHTML = `
+      <div class="empty-state">
+        <p>Siden findes ikke.</p>
+        <small><a href="#/recipes">G&aring; til opskrifterne</a></small>
+      </div>
+    `;
   }
 }
 
@@ -449,6 +471,16 @@ async function renderSuggestionPage(app, slug) {
 
 // Shopping list page
 
+function getChecked() {
+  try { return new Set(JSON.parse(localStorage.getItem('shopping-checked') || '[]')); }
+  catch { return new Set(); }
+}
+
+function saveChecked(checked) {
+  try { localStorage.setItem('shopping-checked', JSON.stringify([...checked])); }
+  catch {}
+}
+
 async function renderShoppingPage(app) {
   app.innerHTML = `
     <div class="page-header"><h1>Indkøbsliste</h1></div>
@@ -463,7 +495,33 @@ async function renderShoppingPage(app) {
     const text = await res.text();
     const { content } = parseFrontmatter(text);
     const html = marked.parse(content).replace(/<li>/g, '<li><input type="checkbox"> ');
-    body.innerHTML = `<div class="shopping-content">${html}</div>`;
+    if (!html.includes('<li>')) throw new Error('empty');
+    body.innerHTML = `
+      <div class="shopping-content">${html}</div>
+      <button class="shopping-reset">Nulstil afkrydsning</button>
+    `;
+
+    const items = [...body.querySelectorAll('.shopping-content li')];
+    const itemText = li => li.textContent.trim();
+    // Drop ticks for items no longer on the list, so a new week's list starts clean
+    const checked = new Set([...getChecked()].filter(t => items.some(li => itemText(li) === t)));
+    saveChecked(checked);
+
+    items.forEach(li => {
+      const box = li.querySelector('input');
+      box.checked = checked.has(itemText(li));
+      box.addEventListener('change', () => {
+        if (box.checked) checked.add(itemText(li));
+        else checked.delete(itemText(li));
+        saveChecked(checked);
+      });
+    });
+
+    body.querySelector('.shopping-reset').addEventListener('click', () => {
+      checked.clear();
+      saveChecked(checked);
+      items.forEach(li => { li.querySelector('input').checked = false; });
+    });
   } catch {
     body.innerHTML = `
       <div class="empty-state">

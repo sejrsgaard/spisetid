@@ -1,6 +1,6 @@
 ---
 title: Brunch pandekager
-tags: [brunch, morgenmad]
+tags: [morgenmad]
 servings: 20 stk
 time: 20 min
 source: https://mummum.dk/brunch-pandekager/

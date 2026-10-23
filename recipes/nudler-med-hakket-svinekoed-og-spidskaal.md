@@ -1,6 +1,6 @@
 ---
 title: Nudler med hakket svinekød og spidskål
-tags: [svinekød, nudler, hurtig]
+tags: [svinekød, asiatisk, hurtig]
 servings: 4
 time: 25 min
 ingredients:

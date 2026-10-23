@@ -1,6 +1,6 @@
 ---
 title: Wraps med nakkefilet og friske grøntsager
-tags: [wraps, rester, svin]
+tags: [svinekød]
 servings: 4
 time: 15 min
 ingredients:

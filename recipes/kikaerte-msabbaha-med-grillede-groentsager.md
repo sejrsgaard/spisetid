@@ -1,6 +1,6 @@
 ---
 title: Kikærte msabbaha med grillede grøntsager og gremolata
-tags: [vegetarisk, mellemøstlig, hurtig]
+tags: [vegetar, mellemøstlig, hurtig]
 servings: 2
 time: 30 min
 ingredients:

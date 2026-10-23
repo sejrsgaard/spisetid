@@ -1,6 +1,6 @@
 ---
 title: Stegt flæsk med persillesovs
-tags: [svinekød, klassisk, dansk]
+tags: [svinekød]
 servings: 4
 time: 40 min
 ingredients:

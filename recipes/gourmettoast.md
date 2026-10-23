@@ -1,6 +1,6 @@
 ---
 title: Gourmettoast med skinke og ost
-tags: [frokost, toast, hurtig]
+tags: [frokost, hurtig]
 servings: 2
 time: 15 min
 source: https://madentusiasten.dk/gourmettoast/

@@ -1,6 +1,6 @@
 ---
 title: Galette med porrer og serranoskinke
-tags: [tærte, svinekød, bagt]
+tags: [tærte, svinekød]
 servings: 2
 time: 2 t 25 min
 ingredients:

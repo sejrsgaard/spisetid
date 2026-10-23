@@ -27,7 +27,7 @@ Plain HTML/CSS/JS single-page app deployed to GitHub Pages at `https://sejrsgaar
 - `recipes/index.json` — ordered array of slugs; must be updated when adding/removing recipes
 - `recipes/<slug>.md` — recipe files with YAML-like frontmatter parsed by `parseFrontmatter()` in `app.js`
 - `planner/YYYY-MM-DD.md` — meal plan per week, keyed by the Saturday start date; H2 headings per day, recipe links use `#/recipe/slug` hash format
-- `shopping/list.md` — single shopping list; plain `- item` per line, no category headings (the app renders all items as checkboxes)
+- `shopping/list.md` — single shopping list; `### Kategori` headings with plain `- item` lines (no `[ ]` — the app adds checkboxes and remembers ticks per item text)
 - `marked.js` is loaded from CDN — no local dependency
 
 **Frontmatter format** for recipes:
@@ -44,6 +44,8 @@ ingredients:
 ```
 Ingredients are displayed in a sticky sidebar. The markdown body (after frontmatter) is rendered as instructions.
 
+**Tags** — use only these, lowercase: kød, kylling, svinekød, lam, fisk, vegetar, salat, pasta, tærte, suppe, tilbehør, bagværk, dessert, snack, morgenmad, frokost, hurtig, grill, asiatisk, mellemøstlig, mexicansk. Add a new tag only if no existing one fits, and add it to this list.
+
 ## Meal plan workflow
 
 The food week runs **Saturday to Friday** — shopping happens on Saturday, so the plan starts there.
@@ -51,7 +53,7 @@ The food week runs **Saturday to Friday** — shopping happens on Saturday, so t
 When the user asks for a meal plan:
 1. Read `recipes/index.json` and relevant recipe files to see available ingredients
 2. Write `planner/YYYY-MM-DD.md` (Saturday of that week) — use H2 per day, link recipes with `#/recipe/slug`
-3. Write `shopping/list.md` — group by `### Category`, use `- [ ] item` format
+3. Write `shopping/list.md` — group by `### Kategori` in store order (Frugt & grønt, Kød & fisk, Mejeri & køl, Brød, Kolonial, Krydderier, Frost, Husholdning), plain `- item` per line, omit empty categories
 4. Commit and push to `main`; GitHub Pages auto-deploys
 
 ## Recipe formatting rules

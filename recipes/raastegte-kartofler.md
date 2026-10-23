@@ -1,6 +1,6 @@
 ---
 title: Råstegte kartofler
-tags: [tilbehør, kartofler]
+tags: [tilbehør]
 servings: 4
 time: 40 min
 source: https://www.valdemarsro.dk/raastegte-kartofler/

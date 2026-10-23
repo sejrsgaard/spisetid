@@ -1,6 +1,6 @@
 ---
 title: Sommer carbonara
-tags: [vegetarisk, pasta, hurtig]
+tags: [vegetar, pasta, hurtig]
 servings: 3
 time: 25 min
 ingredients:

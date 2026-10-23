@@ -23,7 +23,7 @@ Apply these when composing or adapting any recipe:
 
 Produce a recipe file following the formatting rules in `CLAUDE.md` exactly:
 
-- Frontmatter: `title`, `tags` (array), `servings`, `time`, `ingredients` (list, with `(SubSection)` prefixes where the recipe has distinct component groups)
+- Frontmatter: `title`, `tags` (array, only from the allowed list in `CLAUDE.md`), `servings`, `time`, `ingredients` (list, with `(SubSection)` prefixes where the recipe has distinct component groups)
 - Slug: lowercase Danish, spaces → hyphens, `æ→ae`, `ø→oe`, `å→aa` — no special characters
 - Body: starts with `## Fremgangsmåde`, numbered flat steps with inline bold labels, no sub-headings in the body
 - Ingredients: group logically with `(SubSection)` prefixes if the recipe has distinct component groups

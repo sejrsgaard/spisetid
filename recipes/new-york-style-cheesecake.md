@@ -1,6 +1,6 @@
 ---
 title: New York-style cheesecake
-tags: [dessert, kage, bagning]
+tags: [dessert]
 servings: 10
 time: 2 t (+ 8 t køl)
 source: https://detgladekoekken.dk/blogs/opskrifter/new-york-style-cheesecake

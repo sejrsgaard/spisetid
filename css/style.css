@@ -530,6 +530,23 @@ main {
   flex-shrink: 0;
 }
 
+.shopping-reset {
+  margin-top: 1.5rem;
+  background: var(--card-bg);
+  border: 1.5px solid var(--border);
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.shopping-reset:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 /* Suggestions */
 
 .page-subtitle {
