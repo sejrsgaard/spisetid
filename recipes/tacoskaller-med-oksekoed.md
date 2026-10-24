@@ -1,31 +1,34 @@
 ---
-title: Tacoskaller med Oksekød
-tags: [mexicansk]
-servings: 2 voksne og 2 børn
-time: 25 minutter
+title: Tacoskaller med oksekød
+tags: [kød, mexicansk]
+servings: 4
+time: 30 min
+source: https://www.arla.dk/opskrifter/tacoskaller-med-fyld/
 ingredients:
-  - 2 løg
-  - 400 g hakket oksekød
-  - 300 g gulerødder
-  - 2 dl vand
-  - 1 terning oksebouillon
-  - 75 g revet ost
-  - Salat efter eget valg
-  - 4 tomater
-  - ½ agurk
-  - Ketchup
-  - Tacoskaller
-  - Dressing efter eget valg
-  - Olivenolie
-  - Salt og peber
+  - (Krydret oksekød) 10 g smør
+  - (Krydret oksekød) 1 løg, finthakket (ca. 75 g)
+  - (Krydret oksekød) 2 små fed hvidløg, finthakket
+  - (Krydret oksekød) 300 g hakket oksekød
+  - (Krydret oksekød) 2 spsk koncentreret tomatpuré
+  - (Krydret oksekød) 2 tsk stødt spidskommen
+  - (Krydret oksekød) 2 tsk stødt koriander
+  - (Krydret oksekød) 1 tsk tørrede chiliflager
+  - (Krydret oksekød) 1 tsk groft salt
+  - (Krydret oksekød) 1 dåse kidneybønner (ca. 420 g)
+  - (Krydret oksekød) 1 dåse majs (ca. 140 g)
+  - (Salsadressing) 1 dl creme fraiche
+  - (Salsadressing) ½ dl tomatsalsa
+  - (Servering) 12 tacoskaller
+  - (Servering) 2 avocadoer i skiver
+  - (Servering) 100 g fintsnittet lilla spidskål
+  - (Servering) 2 dl frisk koriander
+  - (Servering) 2 limes i både
 ---
-
 ## Fremgangsmåde
 
-1. Hak løgene fint. Steg den ene halvdel i lidt olivenolie på en pande, til det har taget farve. Tilsæt kødet og steg videre under omrøring, indtil kødet er brunet godt af.
-
-2. Skræl og riv gulerødderne på den grove side af et rivejern, tilsæt dem til kødblandingen og rør godt.
-
-3. Tilsæt vand og bouillonterning og lad det simre i 5-10 minutter. Smag til med salt og peber.
-
-4. Riv osten og skær salaten i strimler. Skær tomater og agurker i tern. Sæt det hele på bordet i små skåle med resten af løget, kød, ketchup og dressing. Varm tacoskallerne efter anvisningen på pakken.
+1. **Løg:** Smelt smørret på en pande ved kraftig varme uden at det bruner, og svits løg og hvidløg i ca. 1 minut.
+2. **Kød:** Tilsæt kødet og svits i ca. 5 minutter, til det smuldrer og skifter farve.
+3. **Krydderier:** Tilsæt tomatpuré, spidskommen, koriander, chili og salt, og lad det svitse med i ca. 2 minutter.
+4. **Bønner og majs:** Skyl kidneybønnerne i en sigte og lad dem dryppe af. Vend bønner og majs i kødet, varm igennem og smag til.
+5. **Salsadressing:** Rør creme fraiche og tomatsalsa sammen.
+6. **Servering:** Fyld tacoskallerne med kød, avocado, spidskål, koriander og salsadressing, og server med limebåde.
