@@ -3,6 +3,7 @@ title: Galette med porrer og serranoskinke
 tags: [tærte, svinekød]
 servings: 2
 time: 2 t 25 min
+source: https://xn--christinabnding-fub.dk/2019/08/11/galette-med-porrer-og-serranoskinke/
 ingredients:
   - (Tærtedej) 60 g fuldkornshvedemel
   - (Tærtedej) 100 g hvedemel
