@@ -1,33 +1,27 @@
 ---
-title: Kikærte msabbaha med grillede grøntsager og gremolata
+title: Msabaha
 tags: [vegetar, mellemøstlig, hurtig]
 servings: 2
-time: 30 min
+time: 20 min
+source: https://gastrofun.dk/opskrift/msabaha/
 ingredients:
-  - (Grøntsager) 1 aubergine
-  - (Grøntsager) 1 rød peber
-  - (Grøntsager) 1 tomat
-  - (Grøntsager) ½ citron
-  - (Grøntsager) 1 fed hvidløg
-  - (Grøntsager) 1 skalotteløg
-  - (Msabbaha) 1 dåse kikærter
-  - (Msabbaha) 1 dl græsk yoghurt
-  - (Msabbaha) 1 tsk spidskommen
-  - (Msabbaha) 1 spsk tahin
-  - (Tilbehør) 1 pk bredbladet persille
-  - (Tilbehør) ½ pk frisk mynte
-  - (Tilbehør) 2 naanbrød
-  - (Tilbehør) sesamfrø
-  - (Basis) salt
-  - (Basis) peber
-  - (Basis) olivenolie
+  - 1 dåse kikærter
+  - 4 spsk tahin
+  - 6 spsk citronsaft
+  - 1 fed hvidløg
+  - Vand
+  - Olie til stegning
+  - Paprika
+  - Sumak
+  - Bredbladet persille
+  - Olivenolie
+  - Salt
+  - (Til servering) Godt brød
 ---
-
 ## Fremgangsmåde
 
-1. **Forbered:** Tænd grillen eller varm ovnen til 240°C.
-2. **Grøntsager:** Skær auberginen i 1 cm skiver og drys med salt. Del peberen i kvarte og skær tomaten i tern. Riv skallen af citronen og gem den. Grill eller bag aubergine og peber, til de er møre.
-3. **Msabbaha:** Kog kikærterne op i deres lage. Pil og pres hvidløget. Blend yoghurt, halvdelen af hvidløget, spidskommen, tahin, en smule citronsaft, olivenolie, salt og peber. Vend de varme kikærter og ½ dl af lagen i, og mos let.
-4. **Gremolata:** Pil og hak skalotteløget, persillen og mynten fint. Bland med citronskal, resten af hvidløget og olivenolie. Smag til med salt og peber, og vend det med de grillede grøntsager.
-5. **Brød og sesam:** Varm naanbrødene på grillen eller i ovnen. Rist sesamfrøene gyldne på en tør pande.
-6. **Anret:** Fordel msabbahaen på tallerkner, top med de grillede grøntsager, tomattern og ristede sesamfrø. Server med det varme brød.
+1. **Kikærter:** Hæld kikærterne fra. Bruger du tørrede, så læg dem i blød natten over og kog dem efter anvisningen på pakken.
+2. **Tahincreme:** Blend 4–5 spsk kikærter med tahin og hakket hvidløg. Tilsæt vand og citronsaft lidt ad gangen, mens der blendes, til massen har konsistens som tynd yoghurt. Smag til med salt.
+3. **Sprøde kikærter:** Steg et par skefulde kikærter gyldne i olie med lidt paprika, og vend dem derefter i sumak og paprika.
+4. **Anretning:** Hæld tahincremen i en skål, og top med et par skefulde kogte kikærter og derefter de stegte kikærter.
+5. **Servering:** Drys med hakket persille, sumak og paprika, dryp lidt olivenolie i kanten og server med godt brød.
