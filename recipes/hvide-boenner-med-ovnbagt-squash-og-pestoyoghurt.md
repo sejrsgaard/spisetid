@@ -1,27 +1,24 @@
 ---
-title: Hvide bønner med ovnbagt squash og pestoyoghurt
-tags: [vegetar]
-servings: 4 personer
-time: 45 minutter
+title: Stegt squash med cremet ost, hasselnødder og hvide bønner
+tags: [vegetar, hurtig]
+servings: 4
+time: 25 min
+source: https://skagenfood.dk/da-dk/opskrifter/bagt-squash-med-cremet-ost-hasselnoedder-og-sorghum-12052
 ingredients:
-  - (Ovnbagt squash) 2 squash, skåret i halvmåner
-  - (Ovnbagt squash) 2 spsk olivenolie
-  - (Ovnbagt squash) 1 tsk tørret timian
-  - (Ovnbagt squash) Salt og friskkværnet peber
-  - (Bønner) 2 dåser hvide bønner, drænet og skyllet
-  - (Bønner) 2 fed hvidløg, finthakket
-  - (Bønner) 1 dl grøntsagsbouillon
-  - (Bønner) 1 spsk olivenolie
-  - (Bønner) Salt og friskkværnet peber
-  - (Pestoyoghurt) 2 dl græsk yoghurt
-  - (Pestoyoghurt) 3 spsk grøn pesto
-  - (Til servering) En håndfuld rucola
-  - (Til servering) 50 g ristede pinjekerner
-  - (Til servering) Fintrevet citronskal
+  - 2 squash
+  - 2 dåser cannellinibønner
+  - 2 fed hvidløg
+  - 150 g kotaost (eller anden cremet frisk ost)
+  - 50 g hasselnøddekerner
+  - 8 g sumak
+  - 2 hjertesalat
+  - Olivenolie
+  - En god klat smør
+  - Salt og sort peber
 ---
 ## Fremgangsmåde
 
-1. **Ovnbagt squash:** Forvarm ovnen til 200°C. Vend squashskiverne i olivenolie, timian, salt og peber. Fordel på en bageplade og bag 25-30 minutter til de er gyldne og bløde.
-2. **Bønner:** Varm olivenolie op i en gryde ved middelvarme. Steg hvidløg i et minut, tilsæt bønner og bouillon og lad det simre i 5 minutter. Smag til med salt og peber.
-3. **Pestoyoghurt:** Rør yoghurt og pesto sammen i en skål.
-4. **Server** bønner og squash i dybe tallerkener med en god klat pestoyoghurt, rucola, ristede pinjekerner og fintrevet citronskal over.
+1. **Forbered:** Snit hvidløget fint og skær salaten i tynde både. Halvér squashen på langs og rids snitfladen med en kniv. Hak hasselnødderne groft.
+2. **Squash:** Steg squashen på snitfladen i lidt olivenolie på en stor pande ved mellemhøj varme i 5–6 minutter, til den har godt med farve og er mør med lidt bid.
+3. **Bønner:** Dræn bønnerne og lun dem i en kasserolle med lidt olivenolie, hvidløg, sort peber og salt i 4–5 minutter, uden at hvidløget tager farve. Rør en god klat smør i til sidst.
+4. **Servering:** Anret de cremede bønner i dybe tallerkener med squash ovenpå og salat ved siden af. Drys nødder og brudte stykker ost over squashen, og afslut med et lille drys sumak, højst 1 tsk pr. person.
